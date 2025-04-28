@@ -1,0 +1,72 @@
+[
+  {
+    "code": "KB-001",
+    "imageUrl": "/images/quests_1.jpg",
+    "title": "The Warmth of Kandangan Village",
+    "location": "Terrae - Kandangan Village",
+    "registered": "-",
+    "ends": "-",
+    "description": "📜 Description: <br> In Kandangan Village, firewood is the lifeline In Kandangan Village, firewood is the lifeline of kitchens and fireplaces. However, the supply is running low, and the village elders are seeking strong and fit adventurers to gather firewood from the nearby forest. This task requires physical endurance and a spirit of teamwork to ensure that every home stays warm and every kitchen keeps running.",
+    "task": "⚔ Your Task: <br> 1. Explore the area around Kandangan to find and collect usable firewood.<br> 2. Ensure that the collected wood is dry and ready to be burned.<br> 3. Transport the firewood to the village and distribute it to the residents in need.",
+    "reward": "🎁 Reward:<br>1. Reputation points within the village community.<br>2. Food supplies and warm drinks as a token of appreciation for your hard work.<br>3. Payment starting from <strong> Rp20,000 </strong>",
+    "terms": "⚠ Terms & Conditions:<br>1. Only adventurers with <strong>good health, fitness, and stamina </strong>can take on this quest.<br>2. The task duration is <strong>2 hours</strong>.",
+    "status": "available",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "MK-001",
+    "imageUrl": "/images/quests_2.jpg",
+    "title": "Grand Banquet in Lumajang",
+    "location": "Terrae - Lumajang City",
+    "registered": "-",
+    "ends": "-",
+    "description": "📜 Description: <br> Adventurers, a grand dinner banquet will be held in Lumajang on March 2, 2025, and the hosts need skilled hands to ensure that every dish is served to perfection! From preparing fresh ingredients, cooking with the best techniques, to plating meals that look irresistibly appetizing—this is a golden opportunity for those who wish to showcase their culinary expertise.",
+    "task": "⚔ Your Task: <br> 1. Assist in food preparation, including washing, chopping, and seasoning ingredients. <br> 2. Cook a variety of dishes as per the banquet's standards. <br> 3. Arrange and present dishes in an elegant and visually appealing manner for the guests.",
+    "reward": "🎁 Reward: <br> 1. Hands-on experience working in a professional kitchen.<br> 2. A free dinner and the chance to taste special dishes. <br>3. Payment starting from <strong> Rp50,000 </strong>",
+    "terms": "⚠ Terms & Conditions:<br> 1. Must be able to work in a team while maintaining cleanliness and food quality standards. <br> 2. Must have cooking skills and prior experience. <br> 3. The task duration is <strong>4 hours</strong>.",
+    "status": "unavailable",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "PB-001",
+    "imageUrl": "/images/quests_3.jpg",
+    "title": "Flames & Steel of Blacksmith Pak Johari",
+    "location": "Pak Johari - Lumajang City",
+    "registered": "March 6, 2025",
+    "ends": "April 6, 2025",
+    "description": "📜 Description: <br> In the village's corner, the sound of metal meeting hammer echoes—it is Pak Johari, the legendary blacksmith who has forged swords, knives, and tools with ancestral expertise. But the forge's flames cannot burn on their own. He needs new customers who appreciate the hard work and resilience of true steel!",
+    "task": "⚔ Your Task: <br> 1. Spread the word about Pak Johari’s craftsmanship to adventurers, merchants, and the local community. <br> 2. Create engaging promotions on social media or local markets to attract new customers. <br> 3. Collect testimonials from past customers to strengthen Pak Johari’s reputation.",
+    "reward": "🎁 Reward: <br> 1. Special discounts on your personal forging orders. <br> 2. Payment starting from <strong> Rp100,000 </strong>",
+    "terms": "⚠ Terms & Conditions:<br> 1. Must have adequate tools. <br> 2. Must have experience in marketing. <br> 3. The task duration is <strong>3 hours</strong>.",
+    "status": "unavailable",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "AT-001",
+    "imageUrl": "/images/quests_4.jpg",
+    "title": "Senduro Waterfall Expedition",
+    "location": "Hotel & Restaurant Association - Senduro",
+    "registered": "April 10, 2025",
+    "ends": "May 30, 2025",
+    "description": "📜 Description: <br> Hidden among green hills, a majestic waterfall in Senduro awaits to be discovered! This journey is not for the faint-hearted—rocky trails, small rivers to cross, and dense forests will test the true adventurer. However, for those who dare, the reward is a breathtaking view and the fresh mountain air that will be yours to enjoy.",
+    "task": "⚔ Your Task: <br> 1. Explore the trail leading to the waterfall with a team. <br> 2. Observe and document the beauty of nature to share the expedition story. <br> 3. Preserve the environment by not leaving trash and avoiding any damage to nature.",
+    "reward": "🎁 Reward: <br> 1. A challenging and adventurous exploration experience. <br> 2. The opportunity to discover hidden spots unknown to many. <br> 3. Payment starting from <strong> Rp50,000 </strong>",
+    "terms": "⚠ Terms & Conditions: <br> 1. Adventurers must be physically fit enough to hike and explore. <br> 2. Must bring adequate equipment such as trekking shoes, a change of clothes, and a water supply. <br> 3. The task duration is <strong> 4 - 5 hours</strong>.",
+    "status": "available",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "MJ-001",
+    "imageUrl": "/images/quests_5.jpg",
+    "title": "The True Elixir of Kandangan",
+    "location": "Terrae - Kandangan Village",
+    "registered": "April 1, 2025",
+    "ends": "April 10, 2025",
+    "description": "📜 Description: <br> Adventurers, deep in the heart of Kandangan, there is a healer seeking skilled hands to craft traditional herbal medicine passed down through generations. This elixir is not just a drink; it is a source of life energy, trusted for ages to maintain health and vitality. From turmeric, ginger, temulawak, cardamom, to carefully selected spices, your mission is to create the finest blend and spread its benefits far and wide!",
+    "task": "⚔ Your Task: <br> 1. Assist in the preparation of traditional herbal medicine using natural ingredients. <br> 2. Perfect the blend to ensure the ideal taste and maximum benefits. <br> 3. Help promote Kandangan’s herbal medicine to increase its recognition.",
+    "reward": "🎁 Reward: <br> 1. Knowledge of herbal medicine making directly from an expert. <br> 2. Free herbal medicine products from your own creation. <br> 3. Payment starting from <strong> Rp20,000 </strong>",
+    "terms": "⚠ Terms & Conditions: <br> 1. Must have experience in crafting herbal medicine. <br> 2. Must have knowledge of the benefits of spices used in herbal medicine preparation. <br> 3. The task duration is <strong> 1 hours</strong>.",
+    "status": "unavailable",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  }
+]

@@ -1,0 +1,76 @@
+{
+  "activities": [
+    {
+      "id": 1,
+      "title": "International Volunteers",
+      "description": "Contribute to ecotourism expeditions with international volunteers. Help highlight nature’s potential through sustainable actions!",
+      "image": "/images/activities_1.jpg",
+      "descriptionComplete": "Here is the information to join as an international volunteer at Terrae Basecamp via the Worldpackers app: <br /> <br /> <strong>Requirements: </strong><br />- Minimum stay of 1 week <br />- Daily fee: 20 USD <br />- Minimum age: 18 years <br /> <br /> <strong>Provided facilities:</strong> <br /> - Accommodation in a traditional house <br /> - Pick-up and drop-off service <br /> - Three meals a day <br /> - Opportunity to expand your network <br /> - E-Certificate <br /> - Travel experience to breathtaking natural destinations <br /> <br /> To start your adventure, click the Reservation button on this page! <br />",
+      "link": "https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing"
+    },
+    {
+      "id": 2,
+      "title": "Job Vacancies",
+      "description": "Take on missions, complete tasks, and support the community! From cleaning the environment to helping the elderly, every job contributes to sustainable ecotourism.",
+      "image": "/images/activities_2.jpg",
+      "descriptionComplete": "Here is the information to join as a freelance worker at Terrae Basecamp through the Guild House: <br /><br /> <strong>Requirements:</strong> <br /> - Minimum age: 18 years <br /> - At least high school diploma or equivalent <br />  - Good communication skills <br /> - Responsible <br /> <br /> <strong>Provided facilities:</strong> <br /> - Pick-up and drop-off service (depending on the area) <br /> - Commission (Tentative) <br /> <br /> To start your adventure, click the Register button on this page!"
+    },
+    {
+      "id": 3,
+      "title": "Researchers",
+      "description": "Gain insights and discover solutions! Conduct research, experiments, and trials to unlock new opportunities for communities and the environment.",
+      "image": "/images/activities_3.jpg",
+      "descriptionComplete": "Here is the information to join as a researcher at Terrae Basecamp via Google Forms: <br /><br /> <strong>Requirements:</strong> <br /> - Active student (minimum 3rd semester) <br />  - From any university <br /> - Minimum GPA of 3.0 <br /> - Relevant study program in tourism, environment, or social fields <br /> - Monthly fee: Rp 300,000 <br /> <br /> <strong>Provided facilities:</strong> <br /> - Accommodation in a traditional house <br /> - Opportunity to expand international networks <br /> - Travel experience to breathtaking natural destinations <br /> <br /> To start your adventure, click the Register button on this page!"
+    }
+  ],
+  "projects": [
+    {
+      "type": "section",
+      "sectionTitle": "Our Projects",
+      "sectionDescription": "At Terrae, we empower local communities through sustainable ecotourism, aligning with global Sustainable Development Goals. Our projects create jobs, support community resilience, and promote environmental conservation. By involving local residents in tourism, we help <strong>reduce poverty (SDG 1), foster sustainable communities (SDG 11), </strong>and<strong> contribute to climate action (SDG 13)</strong>.",
+      "sectionExploreText": "Explore our initiatives and be part of the change!"
+    },
+    {
+      "id": 1,
+      "title": "Ecotourism",
+      "description": "Terrae is an ecotourism destination that offers a cultural immersion experience with remote village communities in the tropical forests near Bromo Tengger Semeru National Park. Tourists can enjoy the beauty of nature, explore various destinations such as waterfalls and mountains, and experience an authentic local lifestyle. Additionally, Terrae also focuses on processing local products as part of a sustainable tourism experience.",
+      "image": "/images/projects_1.jpg"
+    },
+    {
+      "id": 2,
+      "title": "Environment",
+      "description": "As part of its commitment to sustainability, Terrae promotes environmental conservation through various ecotourism programs. By maintaining a balance between tourism and nature, Terrae supports responsible natural resource management and encourages eco-friendly practices. Through these initiatives, Terrae strives to preserve the surrounding ecosystem and raise awareness of the importance of conservation.",
+      "image": "/images/projects_2.jpg"
+    },
+    {
+      "id": 3,
+      "title": "Social",
+      "description": "Terrae is not just a tourist destination but also a platform for empowering local communities. By involving residents as tour guides, food providers, and transportation service operators, Terrae creates job opportunities and improves the economic well-being of the surrounding community. Additionally, Terrae has received a tourism management certification from the Netherlands' Programma Uitzending Managers in recognition of its contribution to the development of sustainable and culturally-based village tourism in Java.",
+      "image": "/images/projects_3.jpg"
+    }
+  ],
+  "reviews": {
+    "sectionTitle": "Reviews",
+    "items": [
+      {
+        "name": "Lina Rischawy",
+        "origin": "Volunteer - Germany",
+        "image": "/images/reviews_1.jpg",
+        "rating": 5,
+        "shortText": "I’m Lina, the first volunteer on the team, and I’m truly impressed by what this group aims to achieve. This is the right approach—our future depends on the youth, and our planet is on the brink of irreversible destruction. We take Earth for granted, polluting it with waste, deforestation, and thoughtless actions.",
+        "fullText": "<br>In Germany, we've protested for over 40 years for environmental protection, but climate change is nearly unstoppable. Everyone must contribute, but the government must act too. In our country, excessive plastic packaging and plastic bags are banned—people bring fabric bags. A plastic tax or recycled cardboard packaging could be solutions.<br>Another major issue is waste disposal. Why is it so dirty despite Indonesia’s natural and cultural beauty? Where are the trash cans, waste collection, and recycling programs? Education in schools, awareness in villages, and media campaigns are crucial.<br>Terrae Volunteer is stepping in where the government has failed, and that deserves support. During my time here, we collected waste, raised awareness, and explored solutions for waste management."
+      }
+    ]
+  },
+  "contact": {
+    "title": "Terrae",
+    "tagline": "Let's Explore With Us!",
+    "about": "About",
+    "code": "Code of Conduct",
+    "faq": "Frequently Asked Questions",
+    "guild": "Guild House",
+    "contactus": "Contact Us",
+    "whatsapp": "Chat on WhatsApp",
+    "email": "Email Us"
+  }
+}

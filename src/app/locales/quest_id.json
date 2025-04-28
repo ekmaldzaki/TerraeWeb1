@@ -1,0 +1,72 @@
+[
+  {
+    "code": "KB-001",
+    "imageUrl": "/images/quests_1.jpg",
+    "title": "Kehangatan dari Desa Kandangan",
+    "location": "Terrae - Desa Kandangan",
+    "registered": "-",
+    "ends": "-",
+    "description": "📜 Deskripsi: <br> Di desa Kandangan, kayu bakar adalah nyawa bagi dapur dan perapian. Namun, persediaannya mulai menipis, dan para tetua desa meminta bantuan para petualang yang kuat dan bugar untuk mengumpulkan kayu bakar dari hutan terdekat. Tugas ini membutuhkan ketahanan fisik dan semangat gotong royong demi memastikan setiap rumah tetap hangat dan dapur tetap mengepul.",
+    "task": "⚔ Tugasmu: <br> 1. Menjelajahi area sekitar Kandangan untuk mencari dan mengumpulkan kayu bakar yang layak digunakan. <br> 2. Memastikan kayu yang dikumpulkan kering dan siap dibakar. <br> 3. Mengangkut kayu ke desa dan mendistribusikannya kepada warga yang membutuhkan.",
+    "reward": "🎁 Hadiah:<br>1. Poin reputasi dalam komunitas desa.<br>2. Bekal makanan dan minuman hangat sebagai apresiasi atas kerja kerasmu.<br>3. Upah mulai dari <strong> Rp20,000 </strong>",
+    "terms": "⚠ Syarat & Ketentuan: <br>1. Hanya petualang dengan <strong>kondisi tubuh sehat, bugar, dan prima </strong>yang dapat mengambil quest ini.<br>2. Jangka waktu pengerjaan selama <strong>2 jam</strong>.",
+    "status": "available",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "MK-001",
+    "imageUrl": "/images/quests_2.jpg",
+    "title": "Pesta Jamuan di Lumajang",
+    "location": "Terrae - Lumajang Kota",
+    "registered": "-",
+    "ends": "-",
+    "description": "📜 Deskripsi: <br> Para petualang, sebuah pesta makan malam megah akan diadakan di Lumajang pada 2 Maret 2025, dan para tuan rumah membutuhkan tangan-tangan terampil untuk memastikan hidangan tersaji dengan sempurna! Dari mengolah bahan segar, memasak dengan teknik terbaik, hingga menata sajian agar menggugah selera—ini adalah kesempatan emas bagi mereka yang ingin menunjukkan keahlian kuliner mereka.",
+    "task": "⚔ Tugasmu: <br> 1. Membantu dalam persiapan bahan makanan, mulai dari mencuci, memotong, hingga meracik bumbu. <br> 2. Memasak berbagai hidangan yang telah ditentukan sesuai standar jamuan pesta. <br> 3. Menyusun dan menyajikan hidangan agar tampak elegan dan menggoda selera para tamu.",
+    "reward": "🎁 Hadiah: <br> 1. Pengalaman langsung bekerja dalam dapur. <br>2. Makan malam gratis dan kesempatan mencicipi hidangan spesial.<br> 3. Upah mulai dari  <strong> Rp50,000 </strong>",
+    "terms": "⚠ Terms & Conditions: <br> 1. Harus mampu bekerja dalam tim dan menjaga standar kebersihan serta kualitas makanan. <br> 2. Memiliki keterampilan dan pengalaman memasak. <br> 3. Jangka waktu pengerjaan selama <strong> 2 jam</strong>.",
+    "status": "unavailable",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "PB-001",
+    "imageUrl": "/images/quests_3.jpg",
+    "title": "Bara & Baja Pandai Besi Pak Johari",
+    "location": "Pak Johari - Lumajang Kota",
+    "registered": "Maret 6, 2025",
+    "ends": "April 6, 2025",
+    "description": "📜 Deskripsi: <br> Di sudut desa, terdengar dentingan logam bertemu palu—itu adalah Pak Johari, pandai besi legendaris yang telah menempa pedang, pisau, dan perkakas dengan keahlian turun-temurun. Namun, bara di tungku tak bisa menyala sendiri. Ia membutuhkan pelanggan baru yang menghargai hasil kerja keras dan ketahanan baja sejati!",
+    "task": "⚔ Tugasmu: <br> 1. Sebarkan kabar tentang keahlian Pak Johari kepada para petualang, pedagang, dan masyarakat sekitar. <br> 2. Buat promosi menarik di media sosial atau pasar lokal untuk menarik pelanggan baru. <br> 3. Kumpulkan testimoni dari pelanggan lama untuk memperkuat reputasi Pak Johari.",
+    "reward": "🎁 Hadiah: <br> 1. Diskon khusus untuk setiap pesanan tempa pribadimu. <br> 2. Upah mulai dari <strong> Rp100,000 </strong>",
+    "terms": "⚠ Syarat & Ketentuan: <br> 1. Memiliki alat yang memadai. <br> 2. Memiliki pengalam dalam dunia marketing. <br> 3. Jangka waktu pengerjaan selama <strong>3 jam</strong>.",
+    "status": "unavailable",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "AT-001",
+    "imageUrl": "/images/quests_4.jpg",
+    "title": "Ekspedisi Air Terjun Senduro",
+    "location": "Hotel & Restaurant Association - Senduro",
+    "registered": "April 10, 2025",
+    "ends": "Mei 30, 2025",
+    "description": "📜 Deskripsi: <br> Tersembunyi di antara perbukitan hijau, sebuah air terjun megah di Senduro menanti untuk ditemukan! Perjalanan ini bukan untuk yang lemah—jalur berbatu, sungai kecil yang harus diseberangi, dan hutan lebat akan menjadi ujian bagi para petualang sejati. Namun, bagi mereka yang berani, hadiah berupa pemandangan spektakuler dan udara segar pegunungan akan menjadi milikmu.",
+    "task": "⚔ Tugasmu: <br> 1. Menjelajahi jalur menuju air terjun dengan tim. <br> 2. Mengamati dan mendokumentasikan keindahan alam untuk membagikan kisah ekspedisi. <br> 3. Menjaga kelestarian lingkungan dengan tidak meninggalkan sampah dan merusak alam sekitar.",
+    "reward": "🎁 Hadiah: <br> 1. Pengalaman eksplorasi yang menantang dan penuh petualangan. <br> 2. Kesempatan menemukan spot tersembunyi yang belum banyak diketahui orang. <br> 3. Upah mulai dari <strong> Rp50,000 </strong>",
+    "terms": "⚠ Syarat & Ketentuan: <br> 1. Petualang harus memiliki kondisi fisik yang cukup kuat untuk mendaki dan menjelajah. <br> 2. Wajib membawa peralatan yang memadai seperti sepatu trekking, baju ganti, dan persediaan air. <br> 3. Jangka waktu pengerjaan selama<strong> 4 - 5 jam</strong>.",
+    "status": "available",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  },
+  {
+    "code": "MJ-001",
+    "imageUrl": "/images/quests_5.jpg",
+    "title": "Ramuan Sejati dari Kandangan",
+    "location": "Terrae - Desa Kandangan",
+    "registered": "April 1, 2025",
+    "ends": "April 10, 2025",
+    "description": "📜 Deskripsi: <br> Para petualang, di pelosok Kandangan terdapat seorang tabib yang mencari tangan-tangan terampil untuk meracik jamu warisan leluhur. Ramuan ini bukan sekadar minuman, melainkan energi kehidupan yang telah dipercaya turun-temurun untuk menjaga kesehatan dan kebugaran tubuh. Dari kunyit, jahe, temulawak, kapulaga, hingga rempah-rempah pilihan, tugasmu adalah menciptakan racikan terbaik dan menyebarkannya ke seluruh negeri!",
+    "task": "⚔ Tugasmu: <br> 1. Membantu dalam proses pembuatan jamu tradisional dengan bahan-bahan alami. <br> 2. Menyempurnakan racikan agar memiliki rasa yang pas dan manfaat optimal. <br> 3. Membantu mempromosikan jamu Kandangan agar semakin dikenal luas.",
+    "reward": "🎁 Hadiah: <br> 1. Ilmu meracik jamu langsung dari ahlinya. <br> 2. Produk jamu gratis hasil pembuatan. <br> 3. Upah mulai dari <strong> Rp20,000 </strong>",
+    "terms": "⚠ Syarat & Ketentuan: <br> 1. Memiliki pengalaman dalam meracik jamu. <br> 2. Memiliki pengetahuan tentang khasiat dalam rempah-rempah yang digunakan untuk pembuatan jamu. <br> 3. Jangka waktu pengerjaan selama <strong> 1 jam</strong>.",
+    "status": "unavailable",
+    "applyLink": "https://forms.gle/m3d16PTFEst29JHU7"
+  }
+]
