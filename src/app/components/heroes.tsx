@@ -20,7 +20,7 @@ export default function Heroes({ title, description, imageUrl }: HeroesProps) {
   const heroImage = imageUrl;
 
   return (
-    <section className="bg-white text-[#252525] py-16 pt-32">
+    <section className="bg-gray-50 text-[#252525] py-16 pt-32">
       <div className="container mx-auto flex flex-col-reverse md:flex-row items-center px-6 mt-8 space-y-10 md:space-y-0">
         <motion.div
           initial={{ opacity: 0, x: -50 }}

@@ -1,8 +1,19 @@
+import Heroes from "../../components/heroes";
+import Profile from "../../components/profile";
+import Recruitment from "../../components/recruitment";
+import Footer from "../../components/footer";
+
 export default function ProfilePage() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
-      <h1 className="text-5xl font-bold text-gray-900 mb-4">Profile Kita</h1>
-      <p className="text-lg text-gray-600 max-w-2xl">Ini adalah kita</p>
-    </main>
+    <div className="bg-gray-50">
+      <Heroes
+        title="Meet Our Team!"
+        description="Di balik Terrae, terdapat tim kecil namun berdedikasi yang memastikan pengalaman ekowisata berjalan dengan lancar, nyaman, dan tetap berkelanjutan. Kami bekerja dengan semangat kolaborasi, mengedepankan keberlanjutan lingkungan, serta berkomitmen untuk memberdayakan komunitas lokal."
+        imageUrl="/images/heroes_image.jpg"
+      />
+      <Profile />
+      <Recruitment />
+      <Footer />
+    </div>
   );
 }

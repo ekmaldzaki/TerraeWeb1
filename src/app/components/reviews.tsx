@@ -32,7 +32,7 @@ export default function Reviews() {
     : "Read More";
 
   return (
-    <section id="ourReview" className="bg-white py-16 text-[#252525]">
+    <section id="ourReview" className="bg-gray-50 py-16 text-[#252525]">
       <div className="container mx-auto px-4 text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

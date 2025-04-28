@@ -1,6 +1,8 @@
 import Heroes from "../../components/heroes";
 import QuestList from "../../components/questList";
 import Contacts from "../../components/contacts";
+import GuildhouseCTA from "../../components/guildhouseCTA";
+import Benefits from "../../components/benefits";
 
 export default function GuildhousePage() {
   return (
@@ -11,6 +13,8 @@ export default function GuildhousePage() {
         imageUrl="/images/guildhouse_1.png"
       />
       <QuestList />
+      <GuildhouseCTA />
+      <Benefits />
       <Contacts />
     </div>
   );

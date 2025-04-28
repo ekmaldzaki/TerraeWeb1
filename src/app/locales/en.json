@@ -72,5 +72,51 @@
     "contactus": "Contact Us",
     "whatsapp": "Chat on WhatsApp",
     "email": "Email Us"
+  },
+  "guildhouseCTA": [
+    {
+      "title": "Don't Understand How to \nTake the Job?",
+      "description": "Press the button below to learn more about how to take jobs listed in the quests list above.",
+      "buttonText": "Learn More",
+      "buttonLink": "/en/codeofconduct"
+    },
+    {
+      "title": "Not Registered Yet?",
+      "description": "Sign up for the Guild House now and contribute to the community to help others, all while earning fair wages and supporting each other.\nPlus, enjoy the benefits of being a guild member.",
+      "buttonText": "Register Here",
+      "buttonLink": "https://forms.gle/hHxdyYdZH8ifA73t8"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Play to Earn",
+      "description": "Take on missions, complete them, earn rewards—no pressure, just fun!\nEnjoy the results of your hard work."
+    },
+    {
+      "title": "Free Training",
+      "description": "Get free English training with international mentors who will help you improve your English skills."
+    },
+    {
+      "title": "Free Pickup Service",
+      "description": "Get subsidized pickup services to your job location, saving you\nhassle and cost of commuting. Focus your energy on the work itself.\n(Available only in the Senduro area)."
+    }
+  ],
+  "recruitment": {
+    "title": "Join Us",
+    "description": "We are opening opportunities for you!",
+    "cards": [
+      {
+        "title": "Volunteer",
+        "description": "Contribute to ecotourism expeditions alongside international volunteers. Help showcase nature’s potential through sustainable real-world actions!",
+        "buttonText": "Apply",
+        "buttonLink": "https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing"
+      },
+      {
+        "title": "Guild Member",
+        "description": "Take on quests, complete tasks, and help the community! From cleaning the environment to assisting the elderly, every mission supports sustainable ecotourism.",
+        "buttonText": "Learn More",
+        "buttonLink": "./guildhouse.html"
+      }
+    ]
   }
 }

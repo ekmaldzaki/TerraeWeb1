@@ -3,7 +3,7 @@ import { motion } from "framer-motion";
 
 export default function Partners() {
   return (
-    <section className="bg-white text-[#252525] py-16 pt-16">
+    <section className="bg-gray-50 text-[#252525] py-16 pt-16">
       <div className="container mx-auto px-6 text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

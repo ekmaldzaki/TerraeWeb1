@@ -72,5 +72,51 @@
     "contactus": "Contact Us",
     "whatsapp": "Chat on WhatsApp",
     "email": "Email Us"
+  },
+  "guildhouseCTA": [
+    {
+      "title": "Belum Mengerti Cara \nMengambil Pekerjaannya?",
+      "description": "Tekan tombol di bawah ini untuk mempelajari lebih lanjut bagaimana cara untuk mengambil pekerjaan yang terdapat pada quests list di atas.",
+      "buttonText": "Pelajari Lebih Lanjut",
+      "buttonLink": "/id/codeofconduct"
+    },
+    {
+      "title": "Belum Mendaftar?",
+      "description": "Ayo daftarkan dirimu di Guild House sekarang dan berkontribusi pada komunitas untuk membantu sesama, tentunya dengan upah yang memadai dan dapat membantu satu sama lain. Dapatkan juga benefit-benefit menjadi guild member.",
+      "buttonText": "Daftar Disini",
+      "buttonLink": "https://forms.gle/hHxdyYdZH8ifA73t8"
+    }
+  ],
+  "benefits": [
+    {
+      "title": "Play to Earn",
+      "description": "Ambil misi, selesaikan misi, dapatkan upah, tanpa tekanan dan nikmati hasilnya. Have fun!"
+    },
+    {
+      "title": "Free Training",
+      "description": "Dapatkan pelatihan gratis berbahasa inggris bersama mentor mancanegara yang dapat membantu mengembangkan kemampuan bahasa inggris Anda."
+    },
+    {
+      "title": "Free Pickup Service",
+      "description": "Subsidi jasa antar jemput untuk tiba di lokasi pekerjaan, tanpa mengeluarkan tenaga dan biaya perjalanan, simpan tenaga untuk menyelesaikan pekerjaan saja.\n(Khusus area Senduro)."
+    }
+  ],
+  "recruitment": {
+    "title": "Join Us",
+    "description": "Kami membuka peluang untukmu!",
+    "cards": [
+      {
+        "title": "Relawan",
+        "description": "Bergabung dengan ekspedisi ekowisata bersama relawan internasional. Tunjukkan potensi alam melalui aksi nyata yang berkelanjutan!",
+        "buttonText": "Daftar",
+        "buttonLink": "https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing"
+      },
+      {
+        "title": "Anggota Guild",
+        "description": "Ambil misi, selesaikan tugas, dan bantu komunitas! Dari membersihkan lingkungan hingga membantu lansia, setiap misi mendukung ekowisata berkelanjutan.",
+        "buttonText": "Pelajari Lebih Lanjut",
+        "buttonLink": "./guildhouse.html"
+      }
+    ]
   }
 }

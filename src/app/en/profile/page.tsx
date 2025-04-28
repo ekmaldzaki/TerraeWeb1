@@ -1,8 +1,19 @@
+import Heroes from "../../components/heroes";
+import Profile from "../../components/profile";
+import Recruitment from "../../components/recruitment";
+import Footer from "../../components/footer";
+
 export default function ProfilePage() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
-      <h1 className="text-5xl font-bold text-gray-900 mb-4">Our Profile</h1>
-      <p className="text-lg text-gray-600 max-w-2xl">This is us!</p>
-    </main>
+    <div className="bg-gray-50">
+      <Heroes
+        title="Meet Our Team!"
+        description="Behind Terrae, there is a small but dedicated team ensuring that the ecotourism experience runs smoothly, comfortably, and sustainably. We work with a spirit of collaboration, prioritize environmental sustainability, and are committed to empowering local communities."
+        imageUrl="/images/heroes_image.jpg"
+      />
+      <Profile />
+      <Recruitment />
+      <Footer />
+    </div>
   );
 }

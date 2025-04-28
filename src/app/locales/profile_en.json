@@ -1,0 +1,27 @@
+[
+  {
+    "name": "Ghifarry Putra",
+    "role": "Chief Executive Officer",
+    "imageUrl": "/images/profile_1.jpg"
+  },
+  {
+    "name": "Fanzha Zhimran",
+    "role": "Secretary",
+    "imageUrl": "/images/profile_2.jpg"
+  },
+  {
+    "name": "Ekmaldzaki",
+    "role": "IT Developer",
+    "imageUrl": "/images/profile_3.JPG"
+  },
+  {
+    "name": "Mohammad Hanafi",
+    "role": "Logistics",
+    "imageUrl": "/images/profile_4.jpg"
+  },
+  {
+    "name": "Sany Rosafi",
+    "role": "Health Consultant",
+    "imageUrl": "/images/profile_5.jpg"
+  }
+]

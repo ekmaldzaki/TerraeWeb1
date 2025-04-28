@@ -26,7 +26,7 @@ export default function Activities() {
   const activities: Activity[] = isIndonesian ? id.activities : en.activities;
 
   return (
-    <section className="bg-white text-[#252525] py-16">
+    <section className="bg-gray-50 text-[#252525] py-16">
       <div className="container mx-auto px-6 text-center">
         <motion.h2
           initial={{ opacity: 0, y: -20 }}

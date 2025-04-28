@@ -25,7 +25,7 @@ export default function Projects() {
   const sectionData = projects.find((project) => project.type === "section");
 
   return (
-    <section id="ourProjects" className="bg-white text-[#252525] py-16">
+    <section id="ourProjects" className="bg-gray-50 text-[#252525] py-16">
       <div className="container mx-auto px-6 text-center">
         {sectionData && (
           <>
