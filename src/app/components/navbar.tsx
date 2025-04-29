@@ -28,6 +28,7 @@ export default function Navbar() {
     {
       name: locale === "id" ? "Jadi Relawan" : "Become a Volunteer",
       path: "https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing",
+      external: true,
     },
   ];
 
@@ -60,14 +61,25 @@ export default function Navbar() {
 
         {/* Desktop Navigation */}
         <ul className="hidden md:flex space-x-6 items-center">
-          {navLinks.map(({ name, path }) => (
+          {navLinks.map(({ name, path, external }) => (
             <li key={name}>
-              <Link
-                href={`/${locale}${path}`}
-                className="text-gray-300 hover:text-white transition"
-              >
-                {name}
-              </Link>
+              {external ? (
+                <a
+                  href={path}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="text-gray-300 hover:text-white transition"
+                >
+                  {name}
+                </a>
+              ) : (
+                <Link
+                  href={`/${locale}${path}`}
+                  className="text-gray-300 hover:text-white transition"
+                >
+                  {name}
+                </Link>
+              )}
             </li>
           ))}
 
@@ -139,15 +151,27 @@ export default function Navbar() {
             className="fixed inset-x-0 bottom-0 bg-[#4e342e] text-white py-6 shadow-lg rounded-t-2xl"
           >
             <ul className="flex flex-col items-center space-y-4">
-              {navLinks.map(({ name, path }) => (
+              {navLinks.map(({ name, path, external }) => (
                 <li key={name}>
-                  <Link
-                    href={`/${locale}${path}`}
-                    className="text-gray-300 hover:text-white transition text-lg"
-                    onClick={() => setIsOpen(false)}
-                  >
-                    {name}
-                  </Link>
+                  {external ? (
+                    <a
+                      href={path}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-gray-300 hover:text-white transition text-lg"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {name}
+                    </a>
+                  ) : (
+                    <Link
+                      href={`/${locale}${path}`}
+                      className="text-gray-300 hover:text-white transition text-lg"
+                      onClick={() => setIsOpen(false)}
+                    >
+                      {name}
+                    </Link>
+                  )}
                 </li>
               ))}
               <li className="relative">
