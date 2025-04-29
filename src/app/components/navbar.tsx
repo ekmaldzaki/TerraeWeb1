@@ -1,6 +1,6 @@
 "use client";
 
-import { useState } from "react";
+import { useState, useEffect } from "react";
 import Link from "next/link";
 import { Menu, X } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
@@ -39,6 +39,14 @@ export default function Navbar() {
     switchLocale();
     setIsLanguageDropdownOpen(false);
   };
+
+  useEffect(() => {
+    if (isLanguageDropdownOpen) {
+      document.body.style.overflow = "hidden";
+    } else {
+      document.body.style.overflow = "";
+    }
+  }, [isLanguageDropdownOpen]);
 
   if (!isMounted) return null;
 
@@ -154,33 +162,44 @@ export default function Navbar() {
                         : "/images/flag_en.png"
                     }
                     alt="Language Flag"
-                    className="w-6 h-6"
+                    className="w-7 h-5 rounded-md object-cover"
                   />
                 </button>
                 {isLanguageDropdownOpen && (
-                  <div className="absolute right-0 mt-2 bg-white text-black rounded-md shadow-lg py-2 w-32">
-                    <button
-                      onClick={() => handleLanguageChange("id")}
-                      className="flex items-center space-x-2 px-4 py-1 hover:bg-gray-200 w-full text-left"
-                    >
-                      <img
-                        src="images/flag_id.png"
-                        alt="Indonesian Flag"
-                        className="w-6 h-6"
-                      />
-                      <span>Bahasa Indonesia</span>
-                    </button>
-                    <button
-                      onClick={() => handleLanguageChange("en")}
-                      className="flex items-center space-x-2 px-4 py-1 hover:bg-gray-200 w-full text-left"
-                    >
-                      <img
-                        src="images/flag_en.png"
-                        alt="English Flag"
-                        className="w-6 h-6"
-                      />
-                      <span>English</span>
-                    </button>
+                  <div className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50">
+                    <div className="bg-white text-black rounded-md shadow-lg py-4 px-6 w-72 space-y-2">
+                      <h2 className="text-center font-semibold mb-2">
+                        Select Language
+                      </h2>
+                      <button
+                        onClick={() => handleLanguageChange("id")}
+                        className="flex items-center space-x-3 w-full hover:bg-gray-100 p-2 rounded-md"
+                      >
+                        <img
+                          src="/images/flag_id.png"
+                          alt="Indonesian Flag"
+                          className="w-7 h-5 rounded-md object-cover"
+                        />
+                        <span>Bahasa Indonesia</span>
+                      </button>
+                      <button
+                        onClick={() => handleLanguageChange("en")}
+                        className="flex items-center space-x-3 w-full hover:bg-gray-100 p-2 rounded-md"
+                      >
+                        <img
+                          src="/images/flag_en.png"
+                          alt="English Flag"
+                          className="w-7 h-5 rounded-md object-cover"
+                        />
+                        <span>English</span>
+                      </button>
+                      <button
+                        onClick={() => setIsLanguageDropdownOpen(false)}
+                        className="block mx-auto mt-3 text-sm text-gray-500 hover:underline"
+                      >
+                        Cancel
+                      </button>
+                    </div>
                   </div>
                 )}
               </li>
