@@ -15,6 +15,19 @@ export const metadata = {
   icons: {
     icon: "/favicon.png",
   },
+  openGraph: {
+    images: [
+      {
+        url: "/images/heroes_image_low.jpg",
+        width: 1000,
+        height: 1000,
+        alt: "Terrae",
+      },
+    ],
+  },
+  twitter: {
+    images: ["/images/heroes_image_low.jpg"],
+  },
 };
 
 interface RootLayoutProps {
