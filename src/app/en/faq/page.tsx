@@ -1,10 +1,21 @@
-export default function FaqPage() {
+import HeroesNoimg from "../../components/heroesNoimg";
+import Accordion from "../../components/accordion";
+import Footer from "../../components/footer";
+
+export default function ProfilePage() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
-      <h1 className="text-5xl font-bold text-gray-900 mb-4">
-        Frequently Asked Questions
-      </h1>
-      <p className="text-lg text-gray-600 max-w-2xl">This is a faq page!</p>
-    </main>
+    <div className="bg-gray-50">
+      <HeroesNoimg
+        title="Frequently Asked Questions"
+        description="Everything you need to know about Terrae Volunteers, from how to apply to what to expect during the program. Find answers to common questions and get the information you need to start your volunteer journey."
+      />
+      <Accordion dataKey="faq-terraevolunteers" />
+      <HeroesNoimg
+        title="Frequently Asked Questions"
+        description="Everything you need to know about Terrae Guild House, from how to apply to what to expect during the program. Find answers to common questions and get the information you need to start your volunteer journey."
+      />
+      <Accordion dataKey="faq-guildhouse" />
+      <Footer />
+    </div>
   );
 }

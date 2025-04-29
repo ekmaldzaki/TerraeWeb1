@@ -118,5 +118,143 @@
         "buttonLink": "./guildhouse.html"
       }
     ]
+  },
+  "accordion": {
+    "faq-terraevolunteers": [
+      {
+        "question": "Bagaimana cara mendaftar sebagai relawan?",
+        "answer": "Calon relawan harus mendaftar melalui aplikasi <a href=\"https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing\" target=\"_blank\" rel=\"noopener\"><em>Worldpackers</em></a> sebelum mengikuti program. Ini memastikan pendaftaran resmi dan akses ke detail program."
+      },
+      {
+        "question": "Apakah ada biaya untuk mengikuti program ini?",
+        "answer": "Ya, relawan harus berkontribusi sebesar <strong>$20 per orang per hari</strong> untuk mendukung biaya operasional dan kontribusi kepada masyarakat."
+      },
+      {
+        "question": "Bagaimana sistem pembayaran kontribusinya?",
+        "answer": "• <strong>50% deposit</strong> dibayar pada hari pertama briefing.<br>• <strong>Sisa 50%</strong> dibayar di pertengahan masa tinggal.<br>• Pembayaran dilakukan melalui <em>e-banking</em> atau <em>tunai</em> di lokasi."
+      },
+      {
+        "question": "Fasilitas apa saja yang disediakan untuk relawan?",
+        "answer": "• Akomodasi di rumah tradisional lokal.<br> • Tiga kali makan sehari.<br> • Transportasi antar-jemput di area Senduro, termasuk <strong>penjemputan gratis dari Stasiun Klakah</strong> (07.00 - 17.00 WIB).<br> • Pengalaman ekowisata dan budaya.<br> • <strong>Sertifikat elektronik</strong> setelah selesai."
+      },
+      {
+        "question": "Berapa lama durasi program relawan?",
+        "answer": "Minimal: <strong>1 minggu</strong>. Maksimal: <strong>12 minggu</strong>."
+      },
+      {
+        "question": "Apakah ada batas usia untuk ikut serta?",
+        "answer": "Peserta harus berusia minimal <strong>18 tahun</strong>. Di bawah usia tersebut memerlukan izin orang tua."
+      },
+      {
+        "question": "Apa saja yang dilarang selama program?",
+        "answer": "• Dilarang mengonsumsi alkohol, narkotika, atau zat ilegal.<br> • Dilarang melakukan diskriminasi, pelecehan, atau kekerasan.<br> • Dilarang merusak flora dan fauna.<br> • Dilarang meninggalkan area program tanpa izin."
+      },
+      {
+        "question": "Apa yang terjadi jika saya melanggar aturan?",
+        "answer": "• <strong>Pelanggaran ringan:</strong> Teguran lisan.<br> • <strong>Pelanggaran serius:</strong> Bisa dikeluarkan tanpa pengembalian dana.<br> • Masalah hukum dapat dilaporkan ke pihak berwenang."
+      },
+      {
+        "question": "Bagaimana kebijakan pembatalan dan pengembalian dana?",
+        "answer": "• <strong>Sebelum kedatangan:</strong> Deposit tidak dapat dikembalikan, kecuali dalam keadaan darurat.<br> • <strong>Setelah kedatangan:</strong> Tidak ada pengembalian dana kecuali program dibatalkan oleh Terrae."
+      },
+      {
+        "question": "Siapa yang bisa saya hubungi jika terjadi keadaan darurat?",
+        "answer": "Hubungi koordinator program melalui nomor yang diberikan saat kedatangan."
+      }
+    ],
+    "faq-guildhouse": [
+      {
+        "question": "Bagaimana cara mendaftar sebagai pekerja lepas?",
+        "answer": "Calon pekerja lepas harus mendaftar melalui platform <strong>Guild House</strong> sebelum bergabung. Ini memastikan semua pelamar tercatat secara resmi dan dapat mengakses peluang kerja."
+      },
+      {
+        "question": "Apakah ada biaya untuk menjadi pekerja lepas?",
+        "answer": "Tidak, tidak ada <strong>biaya pendaftaran</strong> untuk menjadi pekerja lepas di Terrae Guild House."
+      },
+      {
+        "question": "Bagaimana sistem pembayaran untuk pekerja lepas?",
+        "answer": "Pekerja lepas menerima pembayaran berdasarkan <strong>sistem komisi</strong>. Jumlah komisi bersifat tentatif dan tergantung pada jenis pekerjaan yang dilakukan."
+      },
+      {
+        "question": "Fasilitas apa saja yang diberikan untuk pekerja lepas?",
+        "answer": "• Layanan antar-jemput (tersedia tergantung area).<br> • Kesempatan bekerja di lingkungan dinamis dengan proyek berbasis ekowisata dan masyarakat."
+      },
+      {
+        "question": "Berapa lama durasi pekerjaan lepas?",
+        "answer": "Durasi tergantung pada ketersediaan pekerjaan dan kesepakatan antara pekerja dan Terrae Guild House. Pekerja lepas dapat mengambil beberapa pekerjaan berdasarkan ketersediaan mereka."
+      },
+      {
+        "question": "Apakah ada batas usia untuk menjadi pekerja lepas?",
+        "answer": "Ya, pelamar harus berusia minimal <strong>18 tahun</strong>."
+      },
+      {
+        "question": "Apa saja yang dilarang selama masa kerja?",
+        "answer": "• Berperilaku tidak profesional, melakukan pelecehan, atau diskriminasi.<br> • Gagal menyelesaikan tugas yang diberikan secara bertanggung jawab.<br> • Melanggar kebijakan perusahaan atau peraturan lokal."
+      },
+      {
+        "question": "Apa yang terjadi jika saya melanggar aturan?",
+        "answer": "• <strong>Pelanggaran ringan:</strong> Peringatan.<br> • <strong>Pelanggaran serius:</strong> Bisa diberhentikan dari peluang kerja lepas.<br> • Pelanggaran hukum dapat dilaporkan ke pihak berwenang."
+      },
+      {
+        "question": "Apa kebijakan pembatalan bagi pekerja lepas?",
+        "answer": "Jika pekerja lepas tidak dapat menyelesaikan pekerjaan, mereka harus segera memberi tahu koordinator. Pembatalan berulang tanpa alasan yang jelas dapat menyebabkan dikeluarkannya dari daftar pekerjaan di masa depan."
+      },
+      {
+        "question": "Siapa yang bisa saya hubungi dalam keadaan darurat?",
+        "answer": "Pekerja lepas dapat menghubungi koordinator program melalui nomor kontak yang diberikan saat penugasan."
+      }
+    ],
+    "coc-terraevolunteers": [
+      {
+        "question": "Syarat dan Ketentuan Pendaftaran",
+        "answer": "Pendaftaran: Harus dilakukan melalui aplikasi Worldpackers.<br>Kontribusi: $20 per hari per orang untuk biaya operasional.<br><br><strong>Sistem Pembayaran:</strong><br>• 50% uang muka pada hari pertama.<br>• Sisa 50% dibayar setelah setengah masa tinggal.<br>• Pembayaran melalui e-banking atau tunai.<br><br>Durasi: 1 hingga 12 minggu.<br>Usia Minimum: 18+ atau dengan izin orang tua.<br>Kesehatan: Mengisi formulir kesehatan sebelum kedatangan.<br>Sikap dan Adaptasi: Terbuka terhadap budaya lokal dan siap beradaptasi."
+      },
+      {
+        "question": "Fasilitas yang Disediakan",
+        "answer": "Akomodasi: Rumah tradisional lokal.<br>Makan: Tiga kali sehari, disiapkan oleh warga lokal.<br><br><strong>Transportasi:</strong><br>• Layanan antar-jemput di area Senduro.<br>• Penjemputan gratis dari Stasiun Klakah (07:00 - 17:00 WIB).<br><br>Wisata Alam: Pengalaman ekowisata dan budaya.<br>Sertifikat: Sertifikat elektronik setelah selesai.<br>Jaringan Sosial: Terhubung dengan relawan lokal dan internasional."
+      },
+      {
+        "question": "Jadwal Program",
+        "answer": "<strong>Hari Pertama: Pengenalan dan Adaptasi</strong><br>• Pengenalan program dan aturan.<br>• Bertemu warga lokal dan belajar budaya.<br>• Diskusi program dan penyesuaian tujuan.<br>• Istirahat dan pemulihan dari perjalanan.<br><br><strong>Hari Kedua dan Seterusnya: Jadwal Fleksibel</strong><br>• Aktivitas sesuai proyek yang sedang berjalan.<br>• 4 jam kerja fleksibel per hari."
+      },
+      {
+        "question": "Tanggung Jawab Relawan",
+        "answer": "Menghormati Budaya: Menjunjung nilai dan norma lokal.<br>Partisipasi Aktif: Terlibat dalam kegiatan program.<br>Kebersihan & Lingkungan: Menjaga kebersihan dan keberlanjutan.<br>Etika Perilaku: Tidak merugikan masyarakat sekitar.<br>Pelaporan: Melaporkan masalah kepada koordinator."
+      },
+      {
+        "question": "Larangan Kegiatan",
+        "answer": "Zat Terlarang: Dilarang membawa alkohol, narkoba, atau zat ilegal.<br>Diskriminasi & Kekerasan: Tidak ditoleransi.<br>Kerusakan Lingkungan: Dilarang merusak flora dan fauna.<br>Meninggalkan Area: Tidak diperbolehkan tanpa izin."
+      },
+      {
+        "question": "Sanksi dan Konsekuensi",
+        "answer": "Pelanggaran Ringan: Teguran lisan.<br>Pelanggaran Berat: Dikeluarkan tanpa pengembalian dana.<br>Tindakan Hukum: Kasus serius akan dilaporkan ke pihak berwenang."
+      }
+    ],
+    "coc-guildhouse": [
+      {
+        "question": "Syarat dan Ketentuan Pendaftaran",
+        "answer": "Pendaftaran: Melalui bagian Guild House.<br>Usia Minimum: 18 tahun.<br>Pendidikan: Lulusan SMA atau setara.<br>Kemampuan: Komunikasi baik dan bertanggung jawab."
+      },
+      {
+        "question": "Fasilitas yang Disediakan",
+        "answer": "Transportasi: Layanan antar-jemput sesuai lokasi.<br>Komisi: Pembayaran berdasarkan tugas dan kinerja."
+      },
+      {
+        "question": "Jadwal Kerja",
+        "answer": "Jadwal diberikan melalui platform Guild House.<br>Pekerja lepas harus memenuhi tenggat waktu dan segera melaporkan kendala."
+      },
+      {
+        "question": "Tanggung Jawab Pekerja Lepas",
+        "answer": "Profesionalisme: Menjaga tanggung jawab.<br>Menghormati Budaya: Mengikuti etika kerja.<br>Kualitas Pekerjaan: Menjamin ketepatan.<br>Komunikasi: Melaporkan progres."
+      },
+      {
+        "question": "Larangan",
+        "answer": "Zat Terlarang: Dilarang alkohol/narkoba.<br>Diskriminasi & Kekerasan: Tidak ditoleransi.<br>Perilaku Tidak Profesional: Tidak boleh mengganggu.<br>Pelanggaran Kerahasiaan: Dilarang membocorkan informasi."
+      },
+      {
+        "question": "Sanksi dan Konsekuensi",
+        "answer": "Pelanggaran Ringan: Peringatan lisan dari koordinator.<br>Pelanggaran Berat: Pemutusan kontrak kerja lepas.<br>Tindakan Hukum: Pelanggaran serius akan dilaporkan ke pihak berwenang."
+      }
+    ]
   }
 }

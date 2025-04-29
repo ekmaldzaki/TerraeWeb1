@@ -1,10 +1,21 @@
-export default function CodeOfConductPage() {
+import HeroesNoimg from "../../components/heroesNoimg";
+import Accordion from "../../components/accordion";
+import Footer from "../../components/footer";
+
+export default function ProfilePage() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
-      <h1 className="text-5xl font-bold text-gray-900 mb-4">Code of Conduct</h1>
-      <p className="text-lg text-gray-600 max-w-2xl">
-        Our guildhouse follows strict guidelines to maintain order...
-      </p>
-    </main>
+    <div className="bg-gray-50">
+      <HeroesNoimg
+        title="Code of Conduct"
+        description="Code of Conduct for Terrae Volunteers. This document outlines the expectations and responsibilities of all volunteers, ensuring a safe and respectful environment for everyone involved."
+      />
+      <Accordion dataKey="coc-terraevolunteers" />
+      <HeroesNoimg
+        title="Code of Conduct"
+        description="Code of Conduct for Terrae Freelance Workers Guildhouse. This document outlines the expectations and responsibilities of all volunteers, ensuring a safe and respectful environment for everyone involved."
+      />
+      <Accordion dataKey="coc-guildhouse" />
+      <Footer />
+    </div>
   );
 }

@@ -12,7 +12,7 @@ export default function ProfileCard({
   imageUrl,
 }: ProfileCardProps) {
   return (
-    <div className="card text-center shadow-sm p-6 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-xl">
+    <div className="card text-center shadow-sm p-6 rounded-lg hover:scale-105 transition-transform duration-300 ease-in-out hover:shadow-xl bg-white">
       <div className="flex justify-center mb-4">
         <img
           src={imageUrl}

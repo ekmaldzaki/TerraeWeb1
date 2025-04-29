@@ -37,7 +37,7 @@ export default function Contact() {
   const guildHouseLink = locale === "en" ? "/en/guildhouse" : "/id/guildhouse";
 
   return (
-    <section id="ourContact" className="bg-gray-50 py-16 text-[#252525]">
+    <section id="contact" className="bg-gray-50 py-16 text-[#252525]">
       <div className="container mx-auto px-4">
         <div className="flex flex-col md:flex-row gap-8 items-center justify-center">
           {/* Kanan */}

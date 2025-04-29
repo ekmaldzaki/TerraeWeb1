@@ -1,10 +1,21 @@
-export default function FaqPage() {
+import HeroesNoimg from "../../components/heroesNoimg";
+import Accordion from "../../components/accordion";
+import Footer from "../../components/footer";
+
+export default function ProfilePage() {
   return (
-    <main className="flex flex-col items-center justify-center h-screen bg-gray-100 text-center">
-      <h1 className="text-5xl font-bold text-gray-900 mb-4">
-        Frequently Asked Questions
-      </h1>
-      <p className="text-lg text-gray-600 max-w-2xl">This is a faq page!</p>
-    </main>
+    <div className="bg-gray-50">
+      <HeroesNoimg
+        title="Pertanyaan yang Sering Diajukan"
+        description="Semua yang perlu diketahui tentang Relawan Terrae, mulai dari cara mendaftar hingga apa yang diharapkan selama program. Temukan jawaban untuk pertanyaan umum dan dapatkan informasi yang Anda butuhkan untuk memulai perjalanan relawan Anda."
+      />
+      <Accordion dataKey="faq-terraevolunteers" />
+      <HeroesNoimg
+        title="Pertanyaan yang Sering Diajukan"
+        description="Semua yang perlu diketahui tentang Terrae Guild House, mulai dari cara mendaftar hingga apa yang diharapkan selama program. Temukan jawaban untuk pertanyaan umum dan dapatkan informasi yang Anda butuhkan untuk memulai perjalanan relawan Anda."
+      />
+      <Accordion dataKey="faq-guildhouse" />
+      <Footer />
+    </div>
   );
 }

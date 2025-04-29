@@ -1,3 +1,5 @@
+"use client";
+
 import Heroes from "../components/heroes";
 import Partners from "../components/partners";
 import Activities from "../components/activities";

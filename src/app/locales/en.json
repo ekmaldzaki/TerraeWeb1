@@ -118,5 +118,143 @@
         "buttonLink": "./guildhouse.html"
       }
     ]
+  },
+  "accordion": {
+    "faq-terraevolunteers": [
+      {
+        "question": "How do I register as a volunteer?",
+        "answer": "Prospective volunteers must register through the <a href=\"https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing\" target=\"_blank\" rel=\"noopener\"><em>Worldpackers</em></a> application before joining the program. This ensures official registration and access to program details."
+      },
+      {
+        "question": "Is there a fee to participate in the program?",
+        "answer": "Yes, volunteers must contribute <strong>$20 per person per day</strong> to support operational costs and community contributions."
+      },
+      {
+        "question": "What is the contribution payment system?",
+        "answer": "• <strong>50% deposit</strong> due by the first day of briefing.<br>• <strong>Remaining 50%</strong> payable halfway through the stay.<br>• Payments via <em>e-banking</em> transfer or <em>cash</em> on-site."
+      },
+      {
+        "question": "What facilities are provided to volunteers?",
+        "answer": "• Accommodation in a traditional local home.<br> • Three daily meals.<br> • Shuttle transport within Senduro, including <strong>free pick-up from Klakah Station</strong> (07:00 - 17:00 WIB).<br> • Eco-tourism and cultural experiences. <br> • <strong>E-Certificate</strong> upon completion."
+      },
+      {
+        "question": "How long is the volunteer program?",
+        "answer": "Minimum: <strong>1 week</strong>. Maximum: <strong>12 week</strong>."
+      },
+      {
+        "question": "Is there an age limit to join?",
+        "answer": "Participants must be at least <strong>18 years</strong>. Those under 18 require parental permission."
+      },
+      {
+        "question": "What is prohibited during the program?",
+        "answer": "• No alcohol, narcotics, or illegal substances.<br> • No discrimination, harassment, or violence.<br> • No damage to flora and fauna. <br> • No leaving the program area without permission."
+      },
+      {
+        "question": "What happens if I violate the rules?",
+        "answer": "• <strong>Minor violations:</strong> Verbal warning.<br> • <strong>Serious violations:</strong> Possible expulsion without refund.<br> • Legal matters may be reported to authorities."
+      },
+      {
+        "question": "What is the cancellation and refund policy?",
+        "answer": "• <strong>Before arrival:</strong> Non-refundable deposit, except in emergencies.<br> • <strong>After arrival:</strong> No refunds unless the program is canceled by Terrae."
+      },
+      {
+        "question": "Who can I contact in case of emergency?",
+        "answer": "Contact the program coordinator via the number provided upon arrival."
+      }
+    ],
+    "faq-guildhouse": [
+      {
+        "question": "How do I register as a freelance worker?",
+        "answer": "Prospective freelance workers must register through the <strong>Guild House</strong> platform before joining. This ensures all applicants are officially recorded and can access job opportunities."
+      },
+      {
+        "question": "Is there a fee to participate as a freelance worker?",
+        "answer": "No, there is <strong>no registration</strong> fee to become a freelance worker at Terrae Guild House."
+      },
+      {
+        "question": "What is the payment system for freelance workers?",
+        "answer": "Freelancers receive payments based on a <strong>commission system</strong>. The commission amount is tentative and depends on the type of work performed."
+      },
+      {
+        "question": "What facilities are provided to freelance workers?",
+        "answer": "• Pick-up and drop-off service (availability depends on the area).<br> • Opportunity to work in a dynamic environment with eco-tourism and community-based projects."
+      },
+      {
+        "question": "How long is the freelance work duration?",
+        "answer": "The duration depends on job availability and agreements between the worker and Terrae Guild House. Freelancers can take on multiple assignments based on their availability."
+      },
+      {
+        "question": "Is there an age limit to join as a freelance worker?",
+        "answer": "Yes, applicants must be at least <strong>18 years</strong>."
+      },
+      {
+        "question": "What is prohibited during the work period?",
+        "answer": "• Engaging in unprofessional behavior, harassment, or discrimination.<br> • Failing to complete assigned tasks responsibly.<br> • Violating company policies or local regulations."
+      },
+      {
+        "question": "What happens if I violate the rules?",
+        "answer": "• <strong>Minor violations:</strong> Warning.<br> • <strong>Serious violations:</strong> Possible termination of freelance work opportunities.<br> • Legal violations may be reported to the authorities."
+      },
+      {
+        "question": "What is the cancellation policy for freelance workers?",
+        "answer": "If a freelancer cannot complete an assigned job, they must notify the coordinator as soon as possible. Repeated cancellations without valid reasons may result in removal from future job opportunities."
+      },
+      {
+        "question": "Who can I contact in case of emergency?",
+        "answer": "Freelance workers can contact the program coordinator via the provided contact number upon assignment."
+      }
+    ],
+    "coc-terraevolunteers": [
+      {
+        "question": "Registration Terms and Conditions",
+        "answer": "Registration: Must be done via the Worldpackers app.<br>Contribution: $20 per day per person for operational costs.<br><br><strong>Payment System:</strong><br>• 50% deposit on the first day.<br>• Remaining 50% after half of the stay.<br>• Payment via e-banking or cash.<br><br>Duration: 1 to 12 weeks.<br>Minimum Age: 18+ or with parental consent.<br>Health: Complete health form before arrival.<br>Attitude and Adaptation: Open to local culture and willing to adapt."
+      },
+      {
+        "question": "Provided Facilities",
+        "answer": "Accommodation: Traditional local house.<br>Meals: Three meals a day, prepared by locals.<br><br><strong>Transportation:</strong><br>• Shuttle service within Senduro.<br>• Free pickup from Klakah Station (07:00 - 17:00 WIB).<br><br>Nature Tourism: Eco-tourism and cultural experiences.<br>Certificate: E-Certificate upon completion.<br>Social Network: Connect with local and international volunteers."
+      },
+      {
+        "question": "Program Schedule",
+        "answer": "<strong>Day One: Introduction and Adaptation</strong><br>• Program briefing and rules introduction.<br>• Meet locals and learn about culture.<br>• Discuss program and align goals.<br>• Rest and recover from the journey.<br><br><strong>Day Two and Beyond: Flexible Schedule</strong><br>• Activities based on ongoing projects.<br>• 4 flexible working hours per day."
+      },
+      {
+        "question": "Volunteer Responsibilities",
+        "answer": "Respecting Culture: Honor local traditions and norms.<br>Active Participation: Engage in program activities.<br>Cleanliness & Environment: Maintain hygiene and sustainability.<br>Behavior Ethics: Avoid harming local communities.<br>Reporting: Report issues to the coordinator."
+      },
+      {
+        "question": "Prohibited Activities",
+        "answer": "Prohibited Substances: No alcohol, narcotics, or illegal substances.<br>Discrimination & Violence: Zero tolerance.<br>Environmental Damage: No harming flora or fauna.<br>Leaving the Area: No leaving without permission."
+      },
+      {
+        "question": "Sanctions and Consequences",
+        "answer": "Minor Violations: Verbal warning.<br>Major Violations: Expulsion without refund.<br>Legal Action: Serious cases reported to authorities."
+      }
+    ],
+    "coc-guildhouse": [
+      {
+        "question": "Registration Terms and Conditions",
+        "answer": "Registration: Via Guild House section.<br>Minimum Age: 18 years old.<br>Education: High school diploma or equivalent.<br>Skills: Good communication and responsibility."
+      },
+      {
+        "question": "Provided Facilities",
+        "answer": "Transportation: Pickup/drop-off service based on location.<br>Commission: Payment based on task and performance."
+      },
+      {
+        "question": "Work Schedule",
+        "answer": "Schedules assigned via Guild House platform.<br>Freelancers must meet deadlines and report issues promptly."
+      },
+      {
+        "question": "Freelance Worker Responsibilities",
+        "answer": "Professionalism: Maintain responsibility.<br>Respecting Culture: Follow workplace ethics.<br>Quality Work: Ensure accuracy.<br>Communication: Report progress."
+      },
+      {
+        "question": "Prohibited Activities",
+        "answer": "Prohibited Substances: No alcohol/drugs.<br>Discrimination & Violence: Not tolerated.<br>Unprofessional Behavior: No disruptive conduct.<br>Confidentiality Breach: No leaking info."
+      },
+      {
+        "question": "Sanctions and Consequences",
+        "answer": "Minor Violations: Verbal warnings from the coordinator.<br>Major Violations: Termination of the freelance contract.<br>Legal Action: Serious offenses will be reported to the authorities."
+      }
+    ]
   }
 }
