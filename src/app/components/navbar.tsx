@@ -104,8 +104,13 @@ export default function Navbar() {
             {isLanguageDropdownOpen && (
               <div className="absolute right-0 mt-2 bg-white text-black rounded-md shadow-lg py-2 w-32">
                 <button
-                  onClick={() => handleLanguageChange("id")}
-                  className="flex items-center space-x-2 px-4 py-1 hover:bg-gray-200 w-full text-left"
+                  onClick={() => locale !== "id" && handleLanguageChange("id")}
+                  className={`flex items-center space-x-2 px-4 py-1 w-full text-left ${
+                    locale === "id"
+                      ? "cursor-not-allowed text-gray-400"
+                      : "hover:bg-gray-200"
+                  }`}
+                  disabled={locale === "id"}
                 >
                   <img
                     src="/images/flag_id.png"
@@ -115,8 +120,13 @@ export default function Navbar() {
                   <span>Bahasa Indonesia</span>
                 </button>
                 <button
-                  onClick={() => handleLanguageChange("en")}
-                  className="flex items-center space-x-2 px-4 py-1 hover:bg-gray-200 w-full text-left"
+                  onClick={() => locale !== "en" && handleLanguageChange("en")}
+                  className={`flex items-center space-x-2 px-4 py-1 w-full text-left ${
+                    locale === "en"
+                      ? "cursor-not-allowed text-gray-400"
+                      : "hover:bg-gray-200"
+                  }`}
+                  disabled={locale === "en"}
                 >
                   <img
                     src="/images/flag_en.png"
