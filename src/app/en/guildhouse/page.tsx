@@ -1,20 +1,15 @@
-import Heroes from "../../components/heroes";
-import QuestList from "../../components/questList";
+import HeroesNoImg from "../../components/heroesNoimg";
 import Contacts from "../../components/contacts";
-import GuildhouseCTA from "../../components/guildhouseCTA";
-import Benefits from "../../components/benefits";
+import GuildhouseDate from "../../components/guildhouseDate";
 
 export default function GuildhousePage() {
   return (
-    <div>
-      <Heroes
-        title="Welcome to Guild House!"
-        description="Take on missions, complete tasks, and be part of positive change! From cleaning the environment, maintaining gardens, to assisting the elderly, every task you undertake not only provides direct benefits to the community but also contributes to supporting sustainable ecotourism. By participating in these various tasks, you help preserve nature, improve community well-being, and create a cleaner, more harmonious environment for everyone. Join us and make every small action have a big impact!"
-        imageUrl="/images/guildhouse_1.png"
+    <div className="bg-gray-50">
+      <HeroesNoImg
+        title="Terrae Guild House"
+        description="Join as a domestic volunteer and contribute to ecotourism expeditions. Help showcase nature’s potential through sustainable real-world actions. Be part of the change!"
       />
-      <QuestList />
-      <GuildhouseCTA />
-      <Benefits />
+      <GuildhouseDate />
       <Contacts />
     </div>
   );

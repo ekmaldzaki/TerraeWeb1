@@ -7,14 +7,9 @@ export default function ProfilePage() {
     <div className="bg-gray-50">
       <HeroesNoimg
         title="Frequently Asked Questions"
-        description="Everything you need to know about Terrae Volunteers, from how to apply to what to expect during the program. Find answers to common questions and get the information you need to start your volunteer journey."
+        description="Everything you need to know about International Terrae Volunteers, from how to apply to what to expect during the program. Find answers to common questions and get the information you need to start your volunteer journey."
       />
       <Accordion dataKey="faq-terraevolunteers" />
-      <HeroesNoimg
-        title="Frequently Asked Questions"
-        description="Everything you need to know about Terrae Guild House, from how to apply to what to expect during the program. Find answers to common questions and get the information you need to start your volunteer journey."
-      />
-      <Accordion dataKey="faq-guildhouse" />
       <Footer />
     </div>
   );

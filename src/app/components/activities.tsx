@@ -38,20 +38,18 @@ export default function Activities() {
         </motion.h2>
 
         {/* Cards Grid */}
-        <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
           {activities.map((activity) => (
             <motion.div
               key={activity.id}
               initial={{ opacity: 0, scale: 0.9 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
-              className="bg-gray-100 rounded-lg shadow-md p-6 transition-transform duration-300 md:hover:scale-105"
+              className="bg-gray-100 rounded-lg shadow-md p-6 transition-transform duration-300 md:hover:scale-105 mx-auto max-w-sm"
             >
-              <img
-                src={activity.image}
-                alt={activity.title}
-                className="w-full h-48 object-cover rounded-md"
-              />
+              <div className="relative w-full h-48 overflow-hidden rounded-md">
+                <img src={activity.image} alt={activity.title} />
+              </div>
               <h3 className="text-xl font-semibold mt-4 text-start">
                 {activity.title}
               </h3>
@@ -98,7 +96,7 @@ export default function Activities() {
                 onClick={() => {
                   if (selectedActivity.id === 3) return;
                   if (selectedActivity.id === 2) {
-                    router.push("/guildhouse");
+                    router.push(`${isIndonesian ? "/id" : "/en"}/guildhouse`);
                   } else {
                     window.open(selectedActivity.link, "_blank");
                   }
@@ -110,7 +108,11 @@ export default function Activities() {
                     : "bg-green-600 text-white hover:bg-green-700"
                 }`}
               >
-                {selectedActivity.id === 3 ? "Coming Soon" : "Register"}
+                {selectedActivity.id === 3
+                  ? "Coming Soon"
+                  : isIndonesian
+                  ? "Daftar"
+                  : "Register"}
               </button>
             </div>
           </motion.div>

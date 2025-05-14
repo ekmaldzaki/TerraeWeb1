@@ -1,20 +1,15 @@
-import Heroes from "../../components/heroes";
-import QuestList from "../../components/questList";
+import HeroesNoImg from "../../components/heroesNoimg";
 import Contacts from "../../components/contacts";
-import GuildhouseCTA from "../../components/guildhouseCTA";
-import Benefits from "../../components/benefits";
+import GuildhouseDate from "../../components/guildhouseDate";
 
 export default function GuildhousePage() {
   return (
-    <div>
-      <Heroes
-        title="Welcome to Guild House!"
-        description="Ambil misi, kerjakan tugas, dan jadilah bagian dari perubahan positif! Dari membersihkan lingkungan, merawat taman, hingga membantu lansia, setiap pekerjaan yang dilakukan tidak hanya memberikan manfaat langsung bagi komunitas, tetapi juga berkontribusi dalam mendukung ekowisata berkelanjutan. Dengan berpartisipasi dalam berbagai tugas ini, kamu turut menjaga kelestarian alam, meningkatkan kesejahteraan masyarakat, dan menciptakan lingkungan yang lebih bersih serta harmonis bagi semua. Bergabunglah dan jadikan setiap aksi kecilmu berdampak besar!"
-        imageUrl="/images/guildhouse_1.png"
+    <div className="bg-gray-50">
+      <HeroesNoImg
+        title="Terrae Guild House"
+        description="Bergabunglah dalam ekspedisi ekowisata dengan relawan lokal. Bantu soroti potensi alam melalui tindakan berkelanjutan. Jadilah bagian dari perubahan!"
       />
-      <QuestList />
-      <GuildhouseCTA />
-      <Benefits />
+      <GuildhouseDate />
       <Contacts />
     </div>
   );

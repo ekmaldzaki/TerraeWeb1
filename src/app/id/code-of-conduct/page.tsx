@@ -7,14 +7,9 @@ export default function ProfilePage() {
     <div className="bg-gray-50">
       <HeroesNoimg
         title="Kode Etik"
-        description="Kode Etik untuk Relawan Terrae. Dokumen ini menguraikan harapan dan tanggung jawab semua relawan, memastikan lingkungan yang aman dan saling menghormati bagi semua yang terlibat."
+        description="Kode Etik untuk Relawan Internasional Terrae. Dokumen ini menguraikan harapan dan tanggung jawab semua relawan, memastikan lingkungan yang aman dan saling menghormati bagi semua yang terlibat."
       />
       <Accordion dataKey="faq-terraevolunteers" />
-      <HeroesNoimg
-        title="Kode Etik"
-        description="Kode Etik untuk Pekerja Lepas Terrae Guildhouse. Dokumen ini menguraikan harapan dan tanggung jawab semua relawan, memastikan lingkungan yang aman dan saling menghormati bagi semua yang terlibat."
-      />
-      <Accordion dataKey="coc-guildhouse" />
       <Footer />
     </div>
   );

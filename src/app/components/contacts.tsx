@@ -98,7 +98,7 @@ export default function Contact() {
               </h5>
               <div className="space-y-3">
                 <a
-                  href="https://wa.me/6285158554505"
+                  href="https://wa.me/6285179856864?text=Hello%20Terrae!"
                   target="_blank"
                   className="inline-flex items-center bg-green-500 text-white px-4 py-2 rounded hover:bg-green-600"
                 >

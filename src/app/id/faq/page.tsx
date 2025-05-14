@@ -7,14 +7,9 @@ export default function ProfilePage() {
     <div className="bg-gray-50">
       <HeroesNoimg
         title="Pertanyaan yang Sering Diajukan"
-        description="Semua yang perlu diketahui tentang Relawan Terrae, mulai dari cara mendaftar hingga apa yang diharapkan selama program. Temukan jawaban untuk pertanyaan umum dan dapatkan informasi yang Anda butuhkan untuk memulai perjalanan relawan Anda."
+        description="Semua yang perlu diketahui tentang Relawan Internasional Terrae, mulai dari cara mendaftar hingga apa yang diharapkan selama program. Temukan jawaban untuk pertanyaan umum dan dapatkan informasi yang Anda butuhkan untuk memulai perjalanan relawan Anda."
       />
       <Accordion dataKey="faq-terraevolunteers" />
-      <HeroesNoimg
-        title="Pertanyaan yang Sering Diajukan"
-        description="Semua yang perlu diketahui tentang Terrae Guild House, mulai dari cara mendaftar hingga apa yang diharapkan selama program. Temukan jawaban untuk pertanyaan umum dan dapatkan informasi yang Anda butuhkan untuk memulai perjalanan relawan Anda."
-      />
-      <Accordion dataKey="faq-guildhouse" />
       <Footer />
     </div>
   );

@@ -5,22 +5,15 @@
       "title": "International Volunteers",
       "description": "Contribute to ecotourism expeditions with international volunteers. Help highlight nature’s potential through sustainable actions!",
       "image": "/images/activities_1.jpg",
-      "descriptionComplete": "Here is the information to join as an international volunteer at Terrae Basecamp via the Worldpackers app: <br /> <br /> <strong>Requirements: </strong><br />- Minimum stay of 1 week <br />- Daily fee: 20 USD <br />- Minimum age: 18 years <br /> <br /> <strong>Provided facilities:</strong> <br /> - Accommodation in a traditional house <br /> - Pick-up and drop-off service <br /> - Three meals a day <br /> - Opportunity to expand your network <br /> - E-Certificate <br /> - Travel experience to breathtaking natural destinations <br /> <br /> To start your adventure, click the Reservation button on this page! <br />",
+      "descriptionComplete": "Here is the information to join as an international volunteer at Terrae Basecamp via the Worldpackers app: <br /> <br /> <strong>Requirements: </strong><br />- Minimum stay of 1 week <br />- Daily fee: 20 USD <br />- Minimum age: 18 years <br /> <br /> <strong>Provided facilities:</strong> <br /> - Accommodation in a traditional house <br /> - Pick-up and drop-off service <br /> - Three meals a day <br /> - Opportunity to expand your network <br /> - E-Certificate <br /> - Travel experience to breathtaking natural destinations <br /> <br /> To start your volunteer, click the Register button on this page! <br />",
       "link": "https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing"
     },
     {
       "id": 2,
-      "title": "Job Vacancies",
-      "description": "Take on missions, complete tasks, and support the community! From cleaning the environment to helping the elderly, every job contributes to sustainable ecotourism.",
+      "title": "Domestic Volunteers",
+      "description": "Join as a domestic volunteer and contribute to ecotourism expeditions. Help showcase nature’s potential through sustainable real-world actions!",
       "image": "/images/activities_2.jpg",
-      "descriptionComplete": "Here is the information to join as a freelance worker at Terrae Basecamp through the Guild House: <br /><br /> <strong>Requirements:</strong> <br /> - Minimum age: 18 years <br /> - At least high school diploma or equivalent <br />  - Good communication skills <br /> - Responsible <br /> <br /> <strong>Provided facilities:</strong> <br /> - Pick-up and drop-off service (depending on the area) <br /> - Commission (Tentative) <br /> <br /> To start your adventure, click the Register button on this page!"
-    },
-    {
-      "id": 3,
-      "title": "Researchers",
-      "description": "Gain insights and discover solutions! Conduct research, experiments, and trials to unlock new opportunities for communities and the environment.",
-      "image": "/images/activities_3.jpg",
-      "descriptionComplete": "Here is the information to join as a researcher at Terrae Basecamp via Google Forms: <br /><br /> <strong>Requirements:</strong> <br /> - Active student (minimum 3rd semester) <br />  - From any university <br /> - Minimum GPA of 3.0 <br /> - Relevant study program in tourism, environment, or social fields <br /> - Monthly fee: Rp 300,000 <br /> <br /> <strong>Provided facilities:</strong> <br /> - Accommodation in a traditional house <br /> - Opportunity to expand international networks <br /> - Travel experience to breathtaking natural destinations <br /> <br /> To start your adventure, click the Register button on this page!"
+      "descriptionComplete": "Here is the information to join as a local volunteer at Terrae Basecamp: <br /><br /> <strong>Requirements:</strong><br /> - Minimum age: 18 years old <br /> - Fee: Rp 150,000/pax <br /> - Program duration: 2 days 1 night <br /> <br /> <strong>Facilities provided:</strong> <br /> - Homestay (Private Room) <br /> - Breakfast <br /> - Coffee break <br /> - Waterfall expedition <br /> - Tourism discussion <br /> - Networking <br /> - E-Certificate <br /> <br /> To start your volunteer, click the Register button on this page!"
     }
   ],
   "projects": [
@@ -254,6 +247,43 @@
       {
         "question": "Sanctions and Consequences",
         "answer": "Minor Violations: Verbal warnings from the coordinator.<br>Major Violations: Termination of the freelance contract.<br>Legal Action: Serious offenses will be reported to the authorities."
+      }
+    ]
+  },
+  "guildhouseDate": {
+    "title": "Next Events",
+    "events": [
+      {
+        "dateRange": "7 - 8 June 2025",
+        "title": "Short Voluntary Trip",
+        "description": "Here is the information to join as a local volunteer at Terrae Basecamp: <br /><br /> <strong>Requirements:</strong><br /> - Minimum age: 18 years old <br /> - Fee: Rp 150,000/pax <br /> - Program duration: 2 days 1 night <br /> <br /> <strong>Facilities provided:</strong> <br /> - Homestay (Private Room) <br /> - Breakfast <br /> - Coffee break <br /> - Waterfall expedition <br /> - Tourism discussion <br /> - Networking <br /> - E-Certificate <br /> <br /> To start your volunteer, click the Register button on this page!",
+        "googleFormLink": "https://example.com/form1",
+        "dateEnd": "2025-06-08",
+        "isAvailable": true
+      },
+      {
+        "dateRange": "14 - 15 June 2025",
+        "title": "Short Voluntary Trip",
+        "description": "Here is the information to join as a local volunteer at Terrae Basecamp: <br /><br /> <strong>Requirements:</strong><br /> - Minimum age: 18 years old <br /> - Fee: Rp 150,000/pax <br /> - Program duration: 2 days 1 night <br /> <br /> <strong>Facilities provided:</strong> <br /> - Homestay (Private Room) <br /> - Breakfast <br /> - Coffee break <br /> - Waterfall expedition <br /> - Tourism discussion <br /> - Networking <br /> - E-Certificate <br /> <br /> To start your volunteer, click the Register button on this page!",
+        "googleFormLink": "https://example.com/form2",
+        "dateEnd": "2025-06-15",
+        "isAvailable": false
+      },
+      {
+        "dateRange": "21 - 22 June 2025",
+        "title": "Short Voluntary Trip",
+        "description": "Here is the information to join as a local volunteer at Terrae Basecamp: <br /><br /> <strong>Requirements:</strong><br /> - Minimum age: 18 years old <br /> - Fee: Rp 150,000/pax <br /> - Program duration: 2 days 1 night <br /> <br /> <strong>Facilities provided:</strong> <br /> - Homestay (Private Room) <br /> - Breakfast <br /> - Coffee break <br /> - Waterfall expedition <br /> - Tourism discussion <br /> - Networking <br /> - E-Certificate <br /> <br /> To start your volunteer, click the Register button on this page!",
+        "googleFormLink": "https://example.com/form3",
+        "dateEnd": "2025-06-22",
+        "isAvailable": false
+      },
+      {
+        "dateRange": "28 - 29 June 2025",
+        "title": "Short Voluntary Camp",
+        "description": "Here is the information to join as a local volunteer at Terrae Basecamp: <br /><br /> <strong>Requirements:</strong><br /> - Minimum age: 18 years old <br /> - Fee: Rp 150,000/pax <br /> - Program duration: 2 days 1 night <br /> <br /> <strong>Facilities provided:</strong> <br /> - Homestay (Private Room) <br /> - Breakfast <br /> - Coffee break <br /> - Waterfall expedition <br /> - Tourism discussion <br /> - Networking <br /> - E-Certificate <br /> <br /> To start your volunteer, click the Register button on this page!",
+        "googleFormLink": "https://example.com/form4",
+        "dateEnd": "2025-06-29",
+        "isAvailable": false
       }
     ]
   }

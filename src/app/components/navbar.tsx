@@ -9,6 +9,10 @@ import { useLocale } from "../hooks/useLocale";
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const [isLanguageDropdownOpen, setIsLanguageDropdownOpen] = useState(false);
+  const [isLanguageDropdownOpenDesktop, setIsLanguageDropdownOpenDesktop] =
+    useState(false);
+  const [isLanguageDropdownOpenMobile, setIsLanguageDropdownOpenMobile] =
+    useState(false);
   const { locale, isMounted, switchLocale } = useLocale();
 
   const navLinks = [
@@ -34,6 +38,14 @@ export default function Navbar() {
 
   const toggleLanguageDropdown = () => {
     setIsLanguageDropdownOpen(!isLanguageDropdownOpen);
+  };
+
+  const toggleLanguageDropdownDesktop = () => {
+    setIsLanguageDropdownOpenDesktop(!isLanguageDropdownOpenDesktop);
+  };
+
+  const toggleLanguageDropdownMobile = () => {
+    setIsLanguageDropdownOpenMobile(!isLanguageDropdownOpenMobile);
   };
 
   const handleLanguageChange = (lang: string) => {
@@ -83,10 +95,10 @@ export default function Navbar() {
             </li>
           ))}
 
-          {/* Language Dropdown */}
+          {/* Language Dropdown for Desktop */}
           <li className="relative">
             <button
-              onClick={toggleLanguageDropdown}
+              onClick={toggleLanguageDropdownDesktop}
               className="ml-4 text-white bg-transparent hover:bg-gray-700 rounded-full p-2"
             >
               <img
@@ -100,8 +112,7 @@ export default function Navbar() {
               />
             </button>
 
-            {/* Dropdown untuk memilih bahasa */}
-            {isLanguageDropdownOpen && (
+            {isLanguageDropdownOpenDesktop && (
               <div className="absolute right-0 mt-2 bg-white text-black rounded-md shadow-lg py-2 w-32">
                 <button
                   onClick={() => locale !== "id" && handleLanguageChange("id")}
@@ -184,9 +195,10 @@ export default function Navbar() {
                   )}
                 </li>
               ))}
-              <li className="relative">
+              {/* Language Dropdown for Mobile */}
+              <li className="relative md:hidden">
                 <button
-                  onClick={toggleLanguageDropdown}
+                  onClick={toggleLanguageDropdownMobile}
                   className="text-white bg-transparent hover:bg-gray-700 rounded-full p-2"
                 >
                   <img
@@ -199,15 +211,23 @@ export default function Navbar() {
                     className="w-7 h-5 rounded-md object-cover"
                   />
                 </button>
-                {isLanguageDropdownOpen && (
+
+                {isLanguageDropdownOpenMobile && (
                   <div className="fixed inset-0 z-50 flex items-center justify-center bg-opacity-50">
                     <div className="bg-white text-black rounded-md shadow-lg py-4 px-6 w-72 space-y-2">
                       <h2 className="text-center font-semibold mb-2">
                         Select Language
                       </h2>
                       <button
-                        onClick={() => handleLanguageChange("id")}
-                        className="flex items-center space-x-3 w-full hover:bg-gray-100 p-2 rounded-md"
+                        onClick={() =>
+                          locale !== "id" && handleLanguageChange("id")
+                        }
+                        className={`flex items-center space-x-3 w-full p-2 rounded-md ${
+                          locale === "id"
+                            ? "cursor-not-allowed text-gray-400"
+                            : "hover:bg-gray-100"
+                        }`}
+                        disabled={locale === "id"}
                       >
                         <img
                           src="/images/flag_id.png"
@@ -217,8 +237,15 @@ export default function Navbar() {
                         <span>Bahasa Indonesia</span>
                       </button>
                       <button
-                        onClick={() => handleLanguageChange("en")}
-                        className="flex items-center space-x-3 w-full hover:bg-gray-100 p-2 rounded-md"
+                        onClick={() =>
+                          locale !== "en" && handleLanguageChange("en")
+                        }
+                        className={`flex items-center space-x-3 w-full p-2 rounded-md ${
+                          locale === "en"
+                            ? "cursor-not-allowed text-gray-400"
+                            : "hover:bg-gray-100"
+                        }`}
+                        disabled={locale === "en"}
                       >
                         <img
                           src="/images/flag_en.png"
@@ -228,7 +255,7 @@ export default function Navbar() {
                         <span>English</span>
                       </button>
                       <button
-                        onClick={() => setIsLanguageDropdownOpen(false)}
+                        onClick={() => setIsLanguageDropdownOpenMobile(false)}
                         className="block mx-auto mt-3 text-sm text-gray-500 hover:underline"
                       >
                         Cancel

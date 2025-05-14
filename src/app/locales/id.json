@@ -5,22 +5,15 @@
       "title": "Relawan Internasional",
       "description": "Bergabunglah dalam ekspedisi ekowisata dengan relawan internasional. Bantu soroti potensi alam melalui tindakan berkelanjutan!",
       "image": "/images/activities_1.jpg",
-      "descriptionComplete": "Berikut informasi untuk bergabung sebagai relawan internasional di Terrae Basecamp melalui aplikasi Worldpackers: <br /> <br /> <strong>Persyaratan:</strong><br />- Lama tinggal minimal 1 minggu <br />- Biaya harian: 20 USD <br />- Usia minimal: 18 tahun <br /> <br /> <strong>Fasilitas yang disediakan:</strong><br /> - Akomodasi di rumah tradisional <br /> - Layanan antar jemput <br /> - Tiga kali makan sehari <br /> - Kesempatan untuk memperluas jaringan <br /> - Sertifikat Elektronik <br /> - Pengalaman bepergian ke destinasi alam yang menakjubkan <br /> <br /> Untuk memulai petualangan Anda, klik tombol Reservasi di halaman ini! <br />",
+      "descriptionComplete": "Berikut informasi untuk bergabung sebagai relawan internasional di Terrae Basecamp melalui aplikasi Worldpackers: <br /> <br /> <strong>Persyaratan:</strong><br />- Lama tinggal minimal 1 minggu <br />- Biaya harian: 20 USD <br />- Usia minimal: 18 tahun <br /> <br /> <strong>Fasilitas yang disediakan:</strong><br /> - Akomodasi di rumah tradisional <br /> - Layanan antar jemput <br /> - Tiga kali makan sehari <br /> - Kesempatan untuk memperluas jaringan <br /> - Sertifikat Elektronik <br /> - Pengalaman bepergian ke destinasi alam yang menakjubkan <br /> <br /> Untuk memulai relawan Anda, klik tombol Daftar di halaman ini! <br />",
       "link": "https://www.worldpackers.com/locations/terrae-basecamp-graha-semeru-housing"
     },
     {
       "id": 2,
-      "title": "Lowongan Pekerjaan",
-      "description": "Ambil misi, selesaikan tugas, dan dukung komunitas! Dari membersihkan lingkungan hingga membantu lansia, setiap pekerjaan berkontribusi pada ekowisata berkelanjutan.",
+      "title": "Relawan Lokal",
+      "description": "Bergabunglah dalam ekspedisi ekowisata dengan relawan lokal. Bantu soroti potensi alam melalui tindakan berkelanjutan!",
       "image": "/images/activities_2.jpg",
-      "descriptionComplete": "Berikut informasi untuk bergabung sebagai pekerja lepas di Terrae Basecamp melalui Guild House: <br /><br /> <strong>Persyaratan:</strong><br /> - Usia minimal: 18 tahun <br /> - Minimal lulusan SMA atau setara <br /> - Kemampuan komunikasi yang baik <br /> - Bertanggung jawab <br /> <br /> <strong>Fasilitas yang disediakan:</strong> <br /> - Layanan antar jemput (tergantung area) <br /> - Komisi (Tentatif) <br /> <br /> Untuk memulai petualangan Anda, klik tombol Daftar di halaman ini!"
-    },
-    {
-      "id": 3,
-      "title": "Peneliti",
-      "description": "Dapatkan wawasan dan temukan solusi! Lakukan penelitian, eksperimen, dan uji coba untuk membuka peluang baru bagi komunitas dan lingkungan.",
-      "image": "/images/activities_3.jpg",
-      "descriptionComplete": "Berikut informasi untuk bergabung sebagai peneliti di Terrae Basecamp melalui Google Forms: <br /><br /> <strong>Persyaratan:</strong><br /> - Mahasiswa aktif (minimal semester 3) <br /> - Dari universitas mana saja <br /> - IPK minimal 3.0 <br /> - Program studi yang relevan dengan pariwisata, lingkungan, atau sosial <br /> - Biaya bulanan: Rp 300.000 <br /> <br /> <strong>Fasilitas yang disediakan:</strong><br /> - Akomodasi di rumah tradisional <br /> - Kesempatan memperluas jaringan internasional <br /> - Pengalaman bepergian ke destinasi alam yang menakjubkan <br /> <br /> Untuk memulai petualangan Anda, klik tombol Daftar di halaman ini!"
+      "descriptionComplete": "Berikut informasi untuk bergabung sebagai relawan lokal di Terrae Basecamp: <br /><br /> <strong>Persyaratan:</strong><br /> - Usia minimal: 18 tahun <br /> - Biaya: Rp 150.000/pax <br /> - Durasi program: 2 hari 1 malam <br /> <br /> <strong>Fasilitas yang disediakan:</strong> <br /> - Homestay (1 orang 1 kamar) <br /> - Sarapan pagi <br /> - Coffee break <br /> - Ekspedisi air terjun <br /> - Diskusi pariwisata <br /> - Relasi <br /> - E-Sertifikat <br /> <br /> Untuk memulai relawan Anda, klik tombol Daftar di halaman ini!"
     }
   ],
   "projects": [
@@ -254,6 +247,43 @@
       {
         "question": "Sanksi dan Konsekuensi",
         "answer": "Pelanggaran Ringan: Peringatan lisan dari koordinator.<br>Pelanggaran Berat: Pemutusan kontrak kerja lepas.<br>Tindakan Hukum: Pelanggaran serius akan dilaporkan ke pihak berwenang."
+      }
+    ]
+  },
+  "guildhouseDate": {
+    "title": "Kegiatan Selanjutnya",
+    "events": [
+      {
+        "dateRange": "7 - 8 Juni 2025",
+        "title": "Short Voluntary Trip",
+        "description": "Berikut informasi untuk bergabung sebagai relawan lokal di Terrae Basecamp: <br /><br /> <strong>Persyaratan:</strong><br /> - Usia minimal: 18 tahun <br /> - Biaya: Rp 150.000/pax <br /> - Durasi program: 2 hari 1 malam <br /> <br /> <strong>Fasilitas yang disediakan:</strong> <br /> - Homestay (1 orang 1 kamar) <br /> - Sarapan pagi <br /> - Coffee break <br /> - Ekspedisi air terjun <br /> - Diskusi pariwisata <br /> - Relasi <br /> - E-Sertifikat <br /> <br /> Untuk memulai relawan Anda, klik tombol Daftar di halaman ini!",
+        "googleFormLink": "https://example.com/form1",
+        "dateEnd": "2025-06-08",
+        "isAvailable": true
+      },
+      {
+        "dateRange": "14 - 15 Juni 2025",
+        "title": "Short Voluntary Trip",
+        "description": "Berikut informasi untuk bergabung sebagai relawan lokal di Terrae Basecamp: <br /><br /> <strong>Persyaratan:</strong><br /> - Usia minimal: 18 tahun <br /> - Biaya: Rp 150.000/pax <br /> - Durasi program: 2 hari 1 malam <br /> <br /> <strong>Fasilitas yang disediakan:</strong> <br /> - Homestay (1 orang 1 kamar) <br /> - Sarapan pagi <br /> - Coffee break <br /> - Ekspedisi air terjun <br /> - Diskusi pariwisata <br /> - Relasi <br /> - E-Sertifikat <br /> <br /> Untuk memulai relawan Anda, klik tombol Daftar di halaman ini!",
+        "googleFormLink": "https://example.com/form2",
+        "dateEnd": "2025-06-15",
+        "isAvailable": false
+      },
+      {
+        "dateRange": "21 - 22 Juni 2025",
+        "title": "Short Voluntary Trip",
+        "description": "Berikut informasi untuk bergabung sebagai relawan lokal di Terrae Basecamp: <br /><br /> <strong>Persyaratan:</strong><br /> - Usia minimal: 18 tahun <br /> - Biaya: Rp 150.000/pax <br /> - Durasi program: 2 hari 1 malam <br /> <br /> <strong>Fasilitas yang disediakan:</strong> <br /> - Homestay (1 orang 1 kamar) <br /> - Sarapan pagi <br /> - Coffee break <br /> - Ekspedisi air terjun <br /> - Diskusi pariwisata <br /> - Relasi <br /> - E-Sertifikat <br /> <br /> Untuk memulai relawan Anda, klik tombol Daftar di halaman ini!",
+        "googleFormLink": "https://example.com/form3",
+        "dateEnd": "2025-06-22",
+        "isAvailable": false
+      },
+      {
+        "dateRange": "28 - 29 Juni 2025",
+        "title": "Short Voluntary Camp",
+        "description": "Berikut informasi untuk bergabung sebagai relawan lokal di Terrae Basecamp: <br /><br /> <strong>Persyaratan:</strong><br /> - Usia minimal: 18 tahun <br /> - Biaya: Rp 150.000/pax <br /> - Durasi program: 2 hari 1 malam <br /> <br /> <strong>Fasilitas yang disediakan:</strong> <br /> - Homestay (1 orang 1 kamar) <br /> - Sarapan pagi <br /> - Coffee break <br /> - Ekspedisi air terjun <br /> - Diskusi pariwisata <br /> - Relasi <br /> - E-Sertifikat <br /> <br /> Untuk memulai relawan Anda, klik tombol Daftar di halaman ini!",
+        "googleFormLink": "https://example.com/form4",
+        "dateEnd": "2025-06-29",
+        "isAvailable": false
       }
     ]
   }
