@@ -2,6 +2,7 @@ import { ReactNode } from "react";
 import { Rubik } from "next/font/google";
 import "../../app/globals.css";
 import Navbar from "@/app/components/navbar";
+import { Analytics } from "@vercel/analytics/next";
 
 const rubik = Rubik({
   variable: "--font-rubik",
@@ -38,6 +39,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="id">
       <body className={`${rubik.variable} antialiased`}>
+        <Analytics />
         <Navbar />
         {children}
       </body>
