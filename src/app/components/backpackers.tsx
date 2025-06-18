@@ -34,15 +34,13 @@ export default function Backpackers() {
           viewport={{ once: true }}
         >
           <h2 className="text-2xl md:text-3xl font-bold mb-4">
-            Backpackers – Simple Living, Rich Experience
+            Backpackers – 20 USD/pax
           </h2>
           <p className="text-gray-300 mb-6 max-w-lg">
-            Designed for curious travelers who value authenticity and connection
-            over luxury. Starting from just 20 USD/pax, our Backpackers package
-            offers cozy local homestays, real interaction with the community,
-            and an immersive natural experience — perfect for students, solo
-            adventurers, and conscious explorers looking to travel light and
-            live deeply.
+            Ideal for travelers looking for authentic, affordable experiences.
+            Stay with locals, engage with real community activities, and enjoy
+            nature without breaking your budget — all with a welcoming team to
+            guide you through.
           </p>
           <a
             href="https://wa.me/6285179856864?text=Hey%2C%20Terrae!%20I%27m%20interested%20in%20joining%20the%20Backpackers%202D1N%20experience.%20Could%20you%20please%20provide%20more%20details%20on%20what%27s%20included%20and%20how%20to%20join%3F"
