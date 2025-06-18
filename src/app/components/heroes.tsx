@@ -6,7 +6,7 @@ export default function HeroSection() {
   return (
     <section
       className="relative min-h-[80vh] md:min-h-screen w-full bg-cover bg-center flex items-center justify-center text-center"
-      style={{ backgroundImage: "url('/images/heroes_1.jpg')" }}
+      style={{ backgroundImage: "url('/images/Heroes_1.jpg')" }}
     >
       <div className="absolute inset-0 bg-black/70 z-0" />
 
@@ -19,7 +19,7 @@ export default function HeroSection() {
         transition={{ duration: 1.2, ease: "easeOut" }}
       >
         <img
-          src="/images/logo_1.png"
+          src="/images/Logo_1.png"
           alt="Logo"
           className="w-24 md:w-32 h-auto mb-6"
         />
