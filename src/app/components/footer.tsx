@@ -22,6 +22,7 @@ export default function Footer() {
             </div>
             <p>Senduro, Lumajang, Indonesia</p>
             <p className="mt-1 text-blue-500">terrae-hub.com</p>
+            <p>PT Tjakrawala Alas Pribumi</p>
           </div>
 
           {/* Middle: Slogan */}
