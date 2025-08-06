@@ -1,6 +1,7 @@
 import HeroSection from "@/app/components/heroes";
 import Partners from "@/components/partner";
 import AboutTerrae from "@/components/aboutterrae";
+import TerraeLocation from "@/components/terraelocation";
 import ProductList from "@/components/productlist";
 import TerraeHomestay from "@/components/terraehomestay";
 import TerraeActivities from "@/components/terraeactivities";
@@ -17,6 +18,7 @@ export default function HomePage() {
       <HeroSection />
       <Partners />
       <AboutTerrae />
+      <TerraeLocation />
       <ProductList />
       <TerraeHomestay />
       <TerraeActivities />
