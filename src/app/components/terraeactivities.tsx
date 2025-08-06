@@ -8,7 +8,7 @@ const activities = [
     title: "Clean-Up Events",
     images: [
       "/images/cleanup1.jpg",
-      "/images/cleanup2.jpg",
+      "/images/cleanup2.webp",
       "/images/cleanup3.jpg",
       "/images/cleanup4.jpg",
     ],
