@@ -9,7 +9,7 @@ const rooms = [
     description:
       "A cozy modern room nestled within nature. Perfect for those seeking comfort and calm.",
     facilities: [
-      "Double bed",
+      "Queen size bed",
       "2 guests",
       "Fan",
       "Wardrobe",
@@ -31,7 +31,7 @@ const rooms = [
     description:
       "A unique half-circle wooden bungalow room, blending rustic charm with comfort.",
     facilities: [
-      "Double bed",
+      "Queen size bed",
       "2 guests",
       "Fan",
       "Desk",
