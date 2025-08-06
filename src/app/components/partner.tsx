@@ -3,17 +3,47 @@
 import Image from "next/image";
 import { motion } from "framer-motion";
 
+// Business / Event Partners
 const businessPartners = [
-  { src: "/images/partner_1.png", alt: "Business Partner 1" },
-  { src: "/images/partner_2.png", alt: "Business Partner 2" },
-  { src: "/images/partner_3.png", alt: "Business Partner 3" },
-  { src: "/images/partner_4.jpg", alt: "Business Partner 4" },
+  {
+    src: "/images/partner_1.png",
+    alt: "Worldpackers",
+    href: "https://www.worldpackers.com/",
+  },
+  {
+    src: "/images/partner_2.png",
+    alt: "PUM Netherlands",
+    href: "https://www.pum.nl/",
+  },
+  {
+    src: "/images/partner_3.png",
+    alt: "Komunitas Eko Wisata Lumajang",
+    href: "https://www.instagram.com/komunitasekowisatalumajang/",
+  },
+  {
+    src: "/images/partner_4.jpg",
+    alt: "Kandangan Heritage",
+    href: "https://www.instagram.com/kandangan.heritage/",
+  },
 ];
 
+// Media Partners
 const mediaPartners = [
-  { src: "/images/media_1.jpg", alt: "Media Partner 1" },
-  { src: "/images/media_2.png", alt: "Media Partner 2" },
-  { src: "/images/media_3.png", alt: "Media Partner 3" },
+  {
+    src: "/images/media_1.jpg",
+    alt: "Layanan Wisata Lumajang",
+    href: "https://www.instagram.com/layananwisatalumajang/",
+  },
+  {
+    src: "/images/media_2.png",
+    alt: "Senduro Now",
+    href: "https://www.instagram.com/senduronow/",
+  },
+  {
+    src: "/images/media_3.png",
+    alt: "Info Event Lumajang",
+    href: "https://www.instagram.com/infoeventlumajang/",
+  },
 ];
 
 export default function Partners() {
@@ -38,12 +68,19 @@ export default function Partners() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                fill
-                className="object-contain"
-              />
+              <a
+                href={logo.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={logo.alt}
+              >
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  fill
+                  className="object-contain"
+                />
+              </a>
             </motion.div>
           ))}
         </div>
@@ -68,12 +105,19 @@ export default function Partners() {
               transition={{ duration: 0.5, delay: index * 0.1 }}
               viewport={{ once: true }}
             >
-              <Image
-                src={logo.src}
-                alt={logo.alt}
-                fill
-                className="object-contain"
-              />
+              <a
+                href={logo.href}
+                target="_blank"
+                rel="noopener noreferrer"
+                aria-label={logo.alt}
+              >
+                <Image
+                  src={logo.src}
+                  alt={logo.alt}
+                  fill
+                  className="object-contain"
+                />
+              </a>
             </motion.div>
           ))}
         </div>
