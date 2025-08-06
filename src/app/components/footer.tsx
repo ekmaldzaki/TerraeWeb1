@@ -8,7 +8,7 @@ export default function Footer() {
     <footer className="text-sm">
       {/* Top section */}
       <div className="bg-gray-100 py-10 px-4">
-        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 text-gray-700">
+        <div className="max-w-7xl mx-auto grid grid-cols-1 md:grid-cols-2 gap-10 text-gray-700">
           {/* Left: Logo & Address */}
           <div>
             <div className="flex items-center gap-2 mb-2">
@@ -21,21 +21,15 @@ export default function Footer() {
               <span className="font-semibold text-lg">TERRAE</span>
             </div>
             <p>Senduro, Lumajang, Indonesia</p>
-            <p className="mt-1 text-blue-500">terrae-hub.com</p>
-            <p>PT Tjakrawala Alas Pribumi</p>
-          </div>
-
-          {/* Middle: Slogan */}
-          <div className="text-center md:text-left">
-            <h4 className="font-medium text-lg mb-2 text-center">
-              Connecting Cultures. <br />
-              Empowering Communities.
-            </h4>
-            <p>
-              Terrae is where meaningful journeys begin — whether you come to
-              give, to grow, or to rediscover life. Join the movement of impact
-              and adventure.
-            </p>
+            <a
+              href="https://terrae.world"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="mt-1 text-blue-500 hover:underline"
+            >
+              terrae.world
+            </a>
+            <p className="mt-1">PT Tjakrawala Alas Pribumi</p>
           </div>
 
           {/* Right: Social */}

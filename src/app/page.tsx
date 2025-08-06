@@ -1,13 +1,13 @@
 import HeroSection from "@/app/components/heroes";
 import Partners from "@/components/partner";
-import ActivitiesList from "@/components/activitieslist";
-import ReasonList from "@/components/reasonlist";
-import Volunteers from "@/components/volunteers";
-import Backpackers from "@/components/backpackers";
-import Travelers from "@/components/travelers";
-import JourneyPlus from "@/components/journeyplus";
+import AboutTerrae from "@/components/aboutterrae";
+import ProductList from "@/components/productlist";
+import TerraeHomestay from "@/components/terraehomestay";
+import TerraeActivities from "@/components/terraeactivities";
+import TerraeCulture from "@/components/terraeculture";
+import TerraeMerch from "@/components/terraemerch";
+import TerraeBooking from "@/components/terraebooking";
 import FAQ from "@/components/faq";
-import Programs from "@/components/programs";
 import ContactUs from "@/components/contactus";
 import Footer from "@/components/footer";
 
@@ -16,24 +16,14 @@ export default function HomePage() {
     <main>
       <HeroSection />
       <Partners />
-      <div id="activities-list">
-        <ActivitiesList />
-      </div>
-      <ReasonList />
-      <div id="volunteers">
-        <Volunteers />
-      </div>
-      <div id="backpackers">
-        <Backpackers />
-      </div>
-      <div id="travelers">
-        <Travelers />
-      </div>
-      <div id="journeyplus">
-        <JourneyPlus />
-      </div>
+      <AboutTerrae />
+      <ProductList />
+      <TerraeHomestay />
+      <TerraeActivities />
+      <TerraeCulture />
+      <TerraeMerch />
+      <TerraeBooking />
       <FAQ />
-      <Programs />
       <ContactUs />
       <Footer />
     </main>

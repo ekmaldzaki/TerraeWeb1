@@ -18,29 +18,33 @@ export default function ContactUs() {
             TERRAE
           </p>
           <h2 className="text-3xl md:text-4xl font-bold text-black mb-6">
-            ARE YOU READY?
+            READY TO EXPLORE MORE?
           </h2>
-          <button className="bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition">
-            Contact Us!
-          </button>
+          <a
+            href="https://wa.me/6285179856864?text=Hi!%20I%20have%20a%20question%20about%20Terrae."
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block bg-black text-white px-6 py-3 rounded-full font-medium hover:bg-gray-800 transition"
+          >
+            Contact Us on WhatsApp
+          </a>
         </motion.div>
 
         {/* Right Copywriting */}
         <motion.div
-          className="md:w-1/2 text-gray-700 text-base leading-relaxed"
+          className="md:w-1/2 text-gray-700 text-base leading-relaxed text-justify"
           initial={{ opacity: 0, x: 30 }}
           whileInView={{ opacity: 1, x: 0 }}
           transition={{ duration: 0.7 }}
           viewport={{ once: true }}
         >
-          Whether you're a passionate volunteer or a curious traveler, your
-          journey with Terrae promises more than just a trip — it's a chance to
-          connect deeply with Lumajang's soul. Share moments with locals,
-          immerse in real community experiences, and contribute to causes that
-          matter. From unforgettable nature adventures to meaningful cultural
-          exchange, every step is designed to inspire and empower. Step out of
-          your routine, and step into something extraordinary. Join us — let's
-          make impact together.
+          Staying at Terrae isn’t just about having a place to sleep. It’s about
+          discovering stories, cultures, and connections that last. From cozy
+          rooms in nature to real local adventures and cultural exchanges with
+          the Tenggerese community, every moment is thoughtfully crafted.
+          Whether you're here for a day or a week, you’re welcome to be part of
+          something genuine. Let’s talk, connect, and make your journey to
+          Terrae unforgettable.
         </motion.div>
       </div>
     </section>

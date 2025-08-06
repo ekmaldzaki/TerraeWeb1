@@ -6,19 +6,34 @@ import { ChevronDown } from "lucide-react";
 
 const faqs = [
   {
-    question: "How many volunteers are there?",
+    question: "How many people have stayed at Terrae?",
     answer:
-      "We’ve welcomed a vibrant mix of local and international volunteers — including professionals from Germany, Netherlands, and more. Our growing network is passionate, skilled, and united by a shared mission to make a meaningful impact.",
+      "Quite a lot! We've welcomed both local and international guests. It’s always a great mix of cultures and stories coming together.",
   },
   {
-    question: "Why should I join?",
+    question: "How do I get there?",
     answer:
-      "This is more than a trip — it’s a journey of self-discovery. Immerse yourself in authentic Indonesian culture, contribute to real change in Senduro, Lumajang, and take a break from the modern world to reconnect with what truly matters.",
+      "If you're traveling by train, stop at Klakah Station,  we can pick you up for IDR 100,000. From Juanda International Airport, pickup is available too for IDR 200,000. Coming from somewhere else? Just let us know and we’ll help figure it out.",
   },
   {
-    question: "How can I get there?",
+    question: "Is Terrae just a place to stay?",
     answer:
-      "We offer two convenient pickup options: from Klakah Train Station for an additional IDR 100,000, or from Juanda International Airport for IDR 200,000. We’ll make sure your journey begins smoothly.",
+      "Not at all! When you stay at Terrae, you also get to be part of the community, nature activities, local events, cultural rituals, and even cooking with locals. It’s a full experience, not just a room.",
+  },
+  {
+    question: "Can I join the activities without staying overnight?",
+    answer:
+      "Yes, you can! But we highly recommend staying for a few days, ideally a week, to really soak in the nature, culture, and everything we offer. That’s how you get the full Terrae experience.",
+  },
+  {
+    question: "Are there activities every day?",
+    answer:
+      "Not necessarily daily, but there’s always something going on, from trail runs, clean-ups, cultural events, or just meaningful conversations. It’s laid-back but impactful.",
+  },
+  {
+    question: "Do I need to speak Indonesian?",
+    answer:
+      "Nope! We often host international travelers and volunteers, so English works just fine. But if you’re curious about the local language, we’d love to teach you!",
   },
 ];
 

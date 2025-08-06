@@ -33,17 +33,6 @@ export default function HeroSection() {
         <p className="text-white text-lg md:text-xl mb-6 max-w-full">
           where your vacation restoring the world
         </p>
-
-        <button
-          onClick={() => {
-            document
-              .getElementById("activities-list")
-              ?.scrollIntoView({ behavior: "smooth" });
-          }}
-          className="bg-white text-black px-6 py-3 rounded-full font-medium hover:bg-gray-200 transition"
-        >
-          How to join?
-        </button>
       </motion.div>
     </section>
   );
