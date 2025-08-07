@@ -17,25 +17,24 @@ export default function TerraeLocation() {
           <h2 className="text-3xl md:text-4xl font-bold">Where is Terrae?</h2>
           <p className="text-gray-300 text-justify">
             Terrae is located in{" "}
-            <strong>Kandangan, Senduro, Lumajang, East Java, Indonesia</strong>
-            , on the edge of the breathtaking Bromo Tengger Semeru National
+            <strong>Kandangan, Senduro, Lumajang — East Java, Indonesia</strong>
+            , nestled on the edge of the majestic Bromo-Tengger-Semeru National
             Park.
             <br />
             <br />
-            A hidden sanctuary where nature thrives and local wisdom guides.
-            Here, you’ll wake up to mountain air, walk through rice fields, and
-            share stories with villagers over coffee grown in the backyard.
-            Whether you’re a traveler, storyteller, or earth-lover, this place
-            welcomes you.
+            Away from the city noise, this village is where peace meets purpose.
+            Whether you’re chasing sunrises, stories, or sustainable living,
+            this is the kind of place where paths cross, minds open, and hearts
+            grow.
             <br />
             <br />
             Come for the view. Stay for the people. Leave with purpose.
           </p>
           <a
-            href="https://maps.app.goo.gl/VCpj5e9jazXt9VXt8"
+            href="https://maps.app.goo.gl/nqJn5TVJ94mxDEXJA"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block mt-4 px-6 py-3 rounded bg-white text-black font-semibold hover:bg-gray-200 transition"
+            className="inline-block mt-4 px-6 py-3 rounded bg-white text-black font-semibold hover:bg-gray-300 transition"
           >
             Open with Google Maps
           </a>
@@ -51,14 +50,14 @@ export default function TerraeLocation() {
           <div className="w-full h-80 md:h-96 rounded overflow-hidden shadow-lg">
             <iframe
               title="Terrae Location"
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3956.1067008441864!2d113.030278!3d-8.143921!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd65ebbf2e1a5cf%3A0xf88e2275c8c3d65c!2sKandangan%2C%20Senduro%2C%20Lumajang%20Regency%2C%20East%20Java!5e0!3m2!1sen!2sid!4v1690987636542!5m2!1sen!2sid"
+              src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d949.3145345890451!2d113.0914587!3d-8.0646103!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2dd6418fae13f4a9%3A0x7bdf5c27d499c2f8!2sTerrae%20-%20Terrae%20Homestay!5e1!3m2!1sid!2sid!4v1754549816902!5m2!1sid!2sid"
               width="100%"
               height="100%"
               style={{ border: 0 }}
-              allowFullScreen={true}
+              allowFullScreen
               loading="lazy"
               referrerPolicy="no-referrer-when-downgrade"
-            ></iframe>
+            />
           </div>
         </motion.div>
       </div>
