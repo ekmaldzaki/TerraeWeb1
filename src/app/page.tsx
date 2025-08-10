@@ -8,6 +8,7 @@ import TerraeActivities from "@/components/terraeactivities";
 import TerraeCulture from "@/components/terraeculture";
 import TerraeMerch from "@/components/terraemerch";
 import TerraeBooking from "@/components/terraebooking";
+import ItineraryTerrae from "@/components/itineraryterrae";
 import FAQ from "@/components/faq";
 import ContactUs from "@/components/contactus";
 import Footer from "@/components/footer";
@@ -25,6 +26,7 @@ export default function HomePage() {
       <TerraeCulture />
       <TerraeMerch />
       <TerraeBooking />
+      <ItineraryTerrae />
       <FAQ />
       <ContactUs />
       <Footer />
