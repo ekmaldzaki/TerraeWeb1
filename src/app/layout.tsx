@@ -13,7 +13,12 @@ export const metadata: Metadata = {
   title: "Terrae",
   description: "Terrae Official Website",
   icons: {
-    icon: "images/favicon.png",
+    icon: [
+      { url: "/favicon.ico", sizes: "any" },
+      { url: "/favicon-192.png", type: "image/png" },
+      { url: "/favicon-512.png", type: "image/png" },
+    ],
+    apple: "/favicon-192.png",
   },
 };
 
