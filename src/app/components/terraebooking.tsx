@@ -1,6 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
+import { FaWhatsapp, FaGlobe } from "react-icons/fa";
 
 export default function TerraeBooking() {
   return (
@@ -53,16 +54,18 @@ export default function TerraeBooking() {
             href="https://wa.me/6285179856864?text=Hi%2C%20I%20would%20like%20to%20book%20a%20stay%20at%20Terrae%20Homestay."
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 rounded bg-amber-600 hover:bg-amber-800 transition text-white font-semibold"
+            className="flex items-center gap-2 px-6 py-3 rounded bg-amber-600 hover:bg-amber-800 transition text-white font-semibold"
           >
+            <FaWhatsapp size={20} />
             Book via WhatsApp
           </a>
           <a
             href="https://www.worldpackers.com/locations/ecoterrae"
             target="_blank"
             rel="noopener noreferrer"
-            className="px-6 py-3 rounded border border-white hover:bg-white hover:text-black transition font-semibold"
+            className="flex items-center gap-2 px-6 py-3 rounded border border-white hover:bg-white hover:text-black transition font-semibold"
           >
+            <FaGlobe size={20} />
             Apply on Worldpackers
           </a>
         </motion.div>
