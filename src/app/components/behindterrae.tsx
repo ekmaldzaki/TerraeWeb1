@@ -28,7 +28,7 @@ const profiles = [
     age: 27,
     role: "Founder of Kandangan Heritage",
     instagram: "https://www.instagram.com/dandi_prasiska",
-    image: "/images/owner_kandangan.jpg",
+    image: "/images/owner_kandangan.webp",
     description:
       "A proud son of Kandangan village with a dream to bring his beloved hometown to the global stage. Through cultural events, innovative platforms, and community-based initiatives, Dandi works to showcase Kandangan’s rich heritage and vibrant spirit.",
   },
