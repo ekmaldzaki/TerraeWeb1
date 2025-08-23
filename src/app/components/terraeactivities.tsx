@@ -17,6 +17,10 @@ const activities = [
     title: "Trail Run Events",
     images: ["/images/trailrun1.jpg", "/images/trailrun2.jpg"],
   },
+  {
+    title: "Fun Bike Events",
+    images: ["/images/funbike1.webp", "/images/funbike2.webp"],
+  },
 ];
 
 export default function TerraeActivities() {
@@ -44,9 +48,9 @@ export default function TerraeActivities() {
             </a>
             , we regularly host exciting and meaningful activities that connect
             people with nature. From waterfall clean-ups and forest conservation
-            to outdoor sports like trail running, each activity invites you to
-            give back, explore, and grow together. And many more meaningful
-            experiences await you.
+            to outdoor sports like trail running and fun bike events, each
+            activity invites you to give back, explore, and grow together. And
+            many more meaningful experiences await you.
           </p>
         </motion.div>
 
