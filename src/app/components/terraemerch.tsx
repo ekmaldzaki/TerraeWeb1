@@ -2,13 +2,13 @@
 
 import Image from "next/image";
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { useState, useEffect } from "react";
 
 const merchItems = [
   {
     title: "Terrae Jacket",
-    images: ["/images/merch_jacket1.jpg", "/images/merch_jacket2.jpg"],
-    price: "IDR 120k",
+    images: ["/images/merch_jacket1.jpg", "/images/merch_jacket2.webp"],
+    price: "IDR 200k",
   },
   {
     title: "Terrae T-Shirt",
@@ -17,7 +17,7 @@ const merchItems = [
       "/images/merch_tshirt2.jpg",
       "/images/merch_tshirt3.jpg",
     ],
-    price: "IDR 75k",
+    price: "IDR 90k",
   },
   {
     title: "Local Coffee",
@@ -84,6 +84,14 @@ function MerchCard({
 }) {
   const [current, setCurrent] = useState(0);
 
+  // Preload all images for this card
+  useEffect(() => {
+    images.forEach((src) => {
+      const img = new window.Image();
+      img.src = src;
+    });
+  }, [images]);
+
   const nextImage = () => {
     setCurrent((prev) => (prev + 1) % images.length);
   };
@@ -106,15 +114,35 @@ function MerchCard({
           <>
             <button
               onClick={prevImage}
-              className="absolute left-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-2 py-1 text-sm rounded hover:bg-black/70"
+              aria-label="Previous image"
+              className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-white/20 backdrop-blur shadow-lg border border-white/30 text-white text-xl transition hover:bg-amber-600 hover:text-black hover:scale-110 focus:outline-none focus:ring-2 focus:ring-amber-400"
             >
-              ‹
+              <span className="sr-only">Previous</span>
+              <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
+                <path
+                  d="M13 16l-5-6 5-6"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
             <button
               onClick={nextImage}
-              className="absolute right-2 top-1/2 -translate-y-1/2 bg-black/50 text-white px-2 py-1 text-sm rounded hover:bg-black/70"
+              aria-label="Next image"
+              className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-white/20 backdrop-blur shadow-lg border border-white/30 text-white text-xl transition hover:bg-amber-600 hover:text-black hover:scale-110 focus:outline-none focus:ring-2 focus:ring-amber-400"
             >
-              ›
+              <span className="sr-only">Next</span>
+              <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
+                <path
+                  d="M7 4l5 6-5 6"
+                  stroke="currentColor"
+                  strokeWidth="2"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
+                />
+              </svg>
             </button>
           </>
         )}
