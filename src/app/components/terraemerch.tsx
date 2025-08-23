@@ -22,7 +22,7 @@ const merchItems = [
   {
     title: "Local Coffee",
     images: ["/images/merch_coffee1.jpg", "/images/merch_coffee2.jpg"],
-    price: "100g: IDR 12k • 200g: IDR 20k",
+    price: "100g: IDR 20k • 200g: IDR 35k",
   },
   {
     title: "Incense & Fragrance",

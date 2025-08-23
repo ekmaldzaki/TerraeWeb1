@@ -25,7 +25,7 @@ const profiles = [
   },
   {
     name: "Dandi Prasiska",
-    age: 27,
+    age: 24,
     role: "Founder of Kandangan Heritage",
     instagram: "https://www.instagram.com/dandi_prasiska",
     image: "/images/owner_kandangan.webp",
