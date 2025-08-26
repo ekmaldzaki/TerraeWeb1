@@ -32,6 +32,24 @@ const profiles = [
     description:
       "A proud son of Kandangan village with a dream to bring his beloved hometown to the global stage. Through cultural events, innovative platforms, and community-based initiatives, Dandi works to showcase Kandangan’s rich heritage and vibrant spirit.",
   },
+  {
+    name: "Risdian Rifqy",
+    age: 23,
+    role: "Manager of Terrae Campground",
+    instagram: "https://www.instagram.com/risdianrifqy",
+    image: "/images/manager_campground.webp",
+    description:
+      "A passionate traveler with a vision to create a campground that feels natural, vibrant, and truly enjoyable. Risdian believes in designing outdoor spaces where people can connect with nature, relax, and experience the essence of the wild in comfort.",
+  },
+  {
+    name: "Dafi Yofida",
+    age: "35+",
+    role: "Community Public Relations",
+    instagram: "https://www.instagram.com/dafi_yofida",
+    image: "/images/pr_community.jpg",
+    description:
+      "More than just a man, he is the voice that carries every story, the presence that never fades. Known as the elder brother to all, Dafi stands as the bridge between dreams and reality, embodying wisdom, humility, and relentless dedication. Through his words and presence, every gathering finds its soul, and every journey finds its strength.",
+  },
 ];
 
 export default function BehindTerrae() {
