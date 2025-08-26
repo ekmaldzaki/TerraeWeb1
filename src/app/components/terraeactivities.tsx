@@ -11,6 +11,7 @@ const activities = [
       "/images/cleanup2.webp",
       "/images/cleanup3.jpg",
       "/images/cleanup4.jpg",
+      "/images/cleanup5.jpg",
     ],
   },
   {
