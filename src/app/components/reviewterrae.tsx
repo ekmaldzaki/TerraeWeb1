@@ -1,6 +1,13 @@
 "use client";
 
 import Image from "next/image";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+} from "@/components/ui/card";
 
 const reviews = [
   {
@@ -59,31 +66,34 @@ export default function ReviewTerrae() {
         {/* Reviews Grid */}
         <div className="grid gap-8 md:grid-cols-2">
           {reviews.map((review, i) => (
-            <div
+            <Card
               key={i}
-              className="bg-zinc-900 rounded-xl p-6 shadow-md hover:shadow-lg transition"
+              className="bg-white/5 border border-white/10 text-white hover:shadow-lg hover:shadow-amber-900/30 transition flex flex-col"
             >
-              {/* Header */}
-              <div className="flex items-center gap-4 mb-4">
+              <CardHeader className="flex flex-row items-center gap-4">
                 <div className="relative w-14 h-14 rounded-full overflow-hidden">
                   <Image
                     src={review.image}
                     alt={review.name}
-                    layout="fill"
-                    objectFit="cover"
+                    fill
+                    className="object-cover"
                   />
                 </div>
                 <div>
-                  <h3 className="font-semibold text-lg">{review.name}</h3>
-                  <p className="text-sm text-amber-600">{review.country}</p>
+                  <CardTitle className="text-lg font-semibold">
+                    {review.name}
+                  </CardTitle>
+                  <CardDescription className="text-amber-600">
+                    {review.country}
+                  </CardDescription>
                 </div>
-              </div>
-
-              {/* Body */}
-              <p className="text-gray-300 leading-relaxed text-sm md:text-base">
-                {review.text}
-              </p>
-            </div>
+              </CardHeader>
+              <CardContent>
+                <p className="text-gray-300 leading-relaxed text-sm md:text-base">
+                  {review.text}
+                </p>
+              </CardContent>
+            </Card>
           ))}
         </div>
       </div>

@@ -25,6 +25,10 @@ const rooms = [
       "/images/room1_bath_1.jpg",
       "/images/room1_bath_2.jpg",
     ],
+    price: {
+      noBreakfast: "IDR 200k",
+      withBreakfast: "IDR 300k",
+    },
   },
   {
     name: "Wooden Bungalow Room",
@@ -46,6 +50,10 @@ const rooms = [
       "/images/room2_bath_1.jpg",
       "/images/room2_bath_2.jpg",
     ],
+    price: {
+      noBreakfast: "IDR 200k",
+      withBreakfast: "IDR 300k",
+    },
   },
 ];
 
@@ -69,7 +77,7 @@ export default function TerraeHomestay() {
   };
 
   return (
-    <section className="bg-black text-white py-24 px-4">
+    <section className="bg-black text-white pt-36 py-24 px-4">
       <div className="max-w-6xl mx-auto space-y-24">
         {/* Header */}
         <div className="text-center space-y-4 max-w-2xl mx-auto">
@@ -78,7 +86,7 @@ export default function TerraeHomestay() {
             Discover a place to rest, reconnect, and recharge. Terrae Homestay
             offers a peaceful escape into nature with the warmth of community
             hospitality. Whether you're here for adventure, culture, or simply
-            serenity — this is your new home in the highlands.
+            serenity, this is your new home in the highlands.
           </p>
         </div>
 
@@ -86,11 +94,12 @@ export default function TerraeHomestay() {
         {rooms.map((room, index) => (
           <div
             key={index}
-            className="grid md:grid-cols-2 gap-10 items-start border-b border-gray-700 pb-12"
+            className="grid md:grid-cols-2 gap-10 items-start border-b border-gray-700 pb-16"
           >
             {/* Image Album */}
             <div className="flex flex-col gap-4 items-center w-full">
               <div className="w-full aspect-[5/4] relative rounded-xl overflow-hidden shadow-lg">
+                {/* Main Image */}
                 <Image
                   src={selectedImages[index]}
                   alt={`${room.name} Main Image`}
@@ -99,16 +108,20 @@ export default function TerraeHomestay() {
                   priority
                 />
               </div>
-              <div className="grid grid-cols-4 gap-2">
+
+              {/* Gallery Thumbnails */}
+              <div className="grid grid-cols-4 gap-3">
                 {room.gallery.map((img, imgIndex) => (
-                  <div
+                  <button
                     key={imgIndex}
-                    className={`w-20 h-20 relative rounded-md overflow-hidden cursor-pointer transition hover:opacity-80 ${
-                      selectedImages[index] === img
-                        ? "ring-2 ring-amber-600"
-                        : ""
-                    }`}
                     onClick={() => handleImageClick(index, img)}
+                    className={`relative rounded-md overflow-hidden transition hover:opacity-80 
+                      w-16 h-16 md:w-20 md:h-20 
+                      ${
+                        selectedImages[index] === img
+                          ? "ring-2 ring-amber-600"
+                          : ""
+                      }`}
                   >
                     <Image
                       src={img}
@@ -116,7 +129,7 @@ export default function TerraeHomestay() {
                       fill
                       className="object-cover"
                     />
-                  </div>
+                  </button>
                 ))}
               </div>
             </div>
@@ -130,6 +143,7 @@ export default function TerraeHomestay() {
                 </p>
               </div>
 
+              {/* Facilities */}
               <div>
                 <h4 className="font-medium text-lg mb-2">Facilities</h4>
                 <div className="grid grid-cols-2 gap-2 text-gray-400 text-sm">
@@ -139,24 +153,16 @@ export default function TerraeHomestay() {
                 </div>
               </div>
 
-              {/* Price List */}
+              {/* Alternative Prices */}
               <div>
-                <h4 className="font-medium text-lg mb-3">
-                  Rates per night, per room
-                </h4>
-                <div className="grid sm:grid-cols-2 gap-4">
-                  <div className="bg-amber-600 p-4 rounded-xl text-center shadow">
-                    <p className="font-semibold text-white">No Breakfast</p>
-                    <p className="text-white font-bold text-xl mt-1">
-                      IDR 200k
-                    </p>
-                  </div>
-                  <div className="bg-amber-600 p-4 rounded-xl text-center shadow">
-                    <p className="font-semibold text-white">With Breakfast</p>
-                    <p className="text-white font-bold text-xl mt-1">
-                      IDR 300k
-                    </p>
-                  </div>
+                <h4 className="font-medium text-lg mb-3">Rates</h4>
+                <div className="flex gap-3 flex-wrap">
+                  <span className="px-3 py-1 rounded-full border border-amber-600 text-amber-400 text-sm">
+                    No Breakfast — {room.price.noBreakfast}
+                  </span>
+                  <span className="px-3 py-1 rounded-full border border-amber-600 text-amber-400 text-sm">
+                    With Breakfast — {room.price.withBreakfast}
+                  </span>
                 </div>
               </div>
             </div>

@@ -1,8 +1,11 @@
 "use client";
 
-import { useState } from "react";
-import { motion } from "framer-motion";
-import { ChevronDown } from "lucide-react";
+import {
+  Accordion,
+  AccordionContent,
+  AccordionItem,
+  AccordionTrigger,
+} from "@/components/ui/accordion";
 
 const faqs = [
   {
@@ -13,7 +16,7 @@ const faqs = [
   {
     question: "How do I get there?",
     answer:
-      "If you're traveling by train, stop at Klakah Station,  we can pick you up for IDR 100,000. From Juanda International Airport, pickup is available too for IDR 200,000. Coming from somewhere else? Just let us know and we’ll help figure it out.",
+      "If you're traveling by train, stop at Klakah Station, we can pick you up for IDR 100,000. From Juanda International Airport, pickup is available too for IDR 200,000. Coming from somewhere else? Just let us know and we’ll help figure it out.",
   },
   {
     question: "Is Terrae just a place to stay?",
@@ -38,48 +41,32 @@ const faqs = [
 ];
 
 export default function FAQ() {
-  const [openIndex, setOpenIndex] = useState<number | null>(null);
-
-  const toggle = (index: number) => {
-    setOpenIndex(openIndex === index ? null : index);
-  };
-
   return (
-    <section className="bg-black text-white px-4 py-64 relative">
+    <section className="bg-black text-white px-4 py-24 relative">
       <div className="max-w-3xl mx-auto text-center mb-12">
-        <h2 className="text-2xl md:text-3xl font-bold">FAQs</h2>
+        <h2 className="text-2xl md:text-3xl font-bold text-amber-600">FAQs</h2>
+        <p className="text-gray-400 mt-2">
+          Everything you need to know before joining Terrae.
+        </p>
       </div>
 
-      <div className="max-w-3xl mx-auto space-y-4">
-        {faqs.map((faq, index) => (
-          <div
-            key={index}
-            className="border border-gray-700 rounded-xl overflow-hidden"
-          >
-            <button
-              onClick={() => toggle(index)}
-              className="w-full flex justify-between items-center px-6 py-4 text-left font-medium hover:bg-gray-800 transition"
+      <div className="max-w-3xl mx-auto">
+        <Accordion type="single" collapsible className="space-y-4">
+          {faqs.map((faq, index) => (
+            <AccordionItem
+              key={index}
+              value={`item-${index}`}
+              className="border border-white/10 rounded-xl bg-white/5"
             >
-              <span>{faq.question}</span>
-              <ChevronDown
-                className={`transition-transform ${
-                  openIndex === index ? "rotate-180" : ""
-                }`}
-              />
-            </button>
-
-            <motion.div
-              initial={false}
-              animate={{ height: openIndex === index ? "auto" : 0 }}
-              transition={{ duration: 0.3 }}
-              className="overflow-hidden px-6"
-            >
-              {openIndex === index && (
-                <p className="py-2 text-sm text-gray-300">{faq.answer}</p>
-              )}
-            </motion.div>
-          </div>
-        ))}
+              <AccordionTrigger className="px-6 text-left hover:text-amber-600 transition">
+                {faq.question}
+              </AccordionTrigger>
+              <AccordionContent className="px-6 pb-4 text-sm text-gray-300">
+                {faq.answer}
+              </AccordionContent>
+            </AccordionItem>
+          ))}
+        </Accordion>
       </div>
     </section>
   );

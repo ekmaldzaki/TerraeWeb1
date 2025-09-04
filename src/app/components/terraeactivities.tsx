@@ -26,7 +26,7 @@ const activities = [
 
 export default function TerraeActivities() {
   return (
-    <section className="bg-black text-white py-24 px-4">
+    <section className="bg-black text-white pt-36 py-24 px-4">
       <div className="max-w-5xl mx-auto space-y-16 text-center">
         {/* Title & Description */}
         <motion.div

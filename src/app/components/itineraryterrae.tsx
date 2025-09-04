@@ -1,6 +1,13 @@
 "use client";
 
 import { motion } from "framer-motion";
+import {
+  Card,
+  CardHeader,
+  CardTitle,
+  CardDescription,
+  CardContent,
+} from "@/components/ui/card";
 
 const itineraryItems = [
   {
@@ -8,7 +15,6 @@ const itineraryItems = [
     title: "Sonjo (Visiting), Introduction & Schedule Discussion",
     description:
       "A warm welcome to the host, partners, and local community, followed by introductions and open discussion to set our shared schedule.",
-    fixed: true,
   },
   {
     title: "Explore Hidden Waterfall",
@@ -26,18 +32,17 @@ const itineraryItems = [
       "An adventurous run through scenic paths leading to the refreshing waters of the hidden falls.",
   },
   {
-    title: "Explore Selogending Site (History, Culture, Traditional Attire)",
+    title: "Explore Selogending Site",
     description:
       "Learn about the ancient history, local traditions, and cultural attire unique to Selogending.",
   },
   {
-    title:
-      "Explore Mandara Giri Semeru Temple (History, Culture, Traditional Attire)",
+    title: "Mandara Giri Semeru Temple",
     description:
       "Immerse yourself in temple architecture, local beliefs, and the rich cultural heritage of the region.",
   },
   {
-    title: "Cook & Enjoy Traditional/Local Cuisine",
+    title: "Cook & Enjoy Traditional Cuisine",
     description:
       "Prepare and savor authentic dishes using local ingredients and age-old recipes.",
   },
@@ -47,27 +52,21 @@ const itineraryItems = [
       "Share and taste homemade meals from fellow guests, creating a unique cultural food experience.",
   },
   {
-    title: "Selogending Coffee Processing (From Garden to Kitchen)",
+    title: "Selogending Coffee Processing",
     description:
       "Follow the journey of coffee beans from the plantation to the final brewed cup.",
   },
   {
-    title: "Cardamom Tea Processing (From Garden to Kitchen)",
+    title: "Cardamom Tea Processing",
     description:
       "Experience how cardamom tea is grown, harvested, and prepared for a flavorful drink.",
   },
 ];
 
-const puzzleShapes = [
-  "polygon(0% 0%, 100% 0%, 100% 80%, 80% 100%, 0% 100%)",
-  "polygon(20% 0%, 100% 0%, 100% 100%, 0% 100%, 0% 20%)",
-  "polygon(0% 0%, 80% 0%, 100% 20%, 100% 100%, 0% 100%)",
-  "polygon(0% 0%, 100% 0%, 100% 80%, 80% 80%, 80% 100%, 0% 100%)",
-];
-
 export default function ItineraryTerrae() {
   return (
     <section className="bg-black text-white py-16 px-6">
+      {/* Header */}
       <div className="max-w-5xl mx-auto text-center mb-12">
         <h2 className="text-4xl font-bold">
           <span className="text-amber-600">Itinerary</span> List
@@ -76,38 +75,47 @@ export default function ItineraryTerrae() {
           This itinerary covers a{" "}
           <span className="text-amber-600">full-day experience</span> with{" "}
           <span className="text-amber-600">flexible timing</span>. Activities
-          are adapted to available partners and mutual agreements. Every plan is
-          discussed together, except for Day 1 which is always dedicated to{" "}
-          <span className="text-amber-600">Sonjo (visiting)</span>,
-          introductions with the host, partners, and the local community, plus
-          schedule discussions.
+          are adapted to available partners and mutual agreements.
         </p>
       </div>
 
-      <div className="flex flex-wrap justify-center gap-6">
+      {/* Bento Grid */}
+      <div className="max-w-6xl mx-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-6 auto-rows-[200px] gap-6">
         {itineraryItems.map((item, index) => {
-          const shape = puzzleShapes[index % puzzleShapes.length];
+          let gridClass = "lg:col-span-2 lg:row-span-1"; // default size
+
+          if (index === 0) {
+            gridClass = "lg:col-span-3 lg:row-span-2"; // Day 1 big
+          } else if (index === 1 || index === 2) {
+            gridClass = "lg:col-span-3 lg:row-span-1"; // wider horizontal
+          }
+
           return (
             <motion.div
               key={index}
-              drag={!item.fixed}
-              dragConstraints={{ top: 0, bottom: 0, left: 0, right: 0 }}
-              whileHover={{ scale: 1.05 }}
-              className={`p-6 w-72 min-h-[160px] flex flex-col justify-center text-center font-medium bg-amber-600 text-white shadow-lg relative ${
-                item.fixed ? "ring-4 ring-amber-400" : ""
-              }`}
-              style={{
-                clipPath: shape,
-                cursor: item.fixed ? "default" : "grab",
-              }}
+              initial={{ opacity: 0, y: 20 }}
+              whileInView={{ opacity: 1, y: 0 }}
+              transition={{ duration: 0.5, delay: index * 0.05 }}
+              viewport={{ once: true }}
+              className={gridClass}
             >
-              {item.day && (
-                <span className="absolute top-2 left-2 text-xs font-bold text-black bg-white px-2 py-1 rounded">
-                  {item.day}
-                </span>
-              )}
-              <h3 className="text-lg font-bold">{item.title}</h3>
-              <p className="text-sm mt-2">{item.description}</p>
+              <Card className="bg-white/5 border border-white/10 text-white h-full hover:shadow-lg hover:shadow-amber-900/30 transition flex flex-col">
+                <CardHeader>
+                  {item.day && (
+                    <span className="text-xs font-bold text-amber-600 bg-white/10 px-2 py-1 rounded w-fit mb-2">
+                      {item.day}
+                    </span>
+                  )}
+                  <CardTitle className="text-lg font-semibold">
+                    {item.title}
+                  </CardTitle>
+                </CardHeader>
+                <CardContent className="flex-1 flex">
+                  <CardDescription className="text-gray-300 text-sm leading-relaxed">
+                    {item.description}
+                  </CardDescription>
+                </CardContent>
+              </Card>
             </motion.div>
           );
         })}

@@ -14,7 +14,7 @@ export default function AboutTerrae() {
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
         >
-          What is <span className="text-amber-800">Terrae</span>?
+          What is <span className="text-amber-600">Terrae</span>?
         </motion.h2>
 
         {/* Description */}
@@ -30,7 +30,7 @@ export default function AboutTerrae() {
             community-based sanctuary
           </span>{" "}
           where nature, culture, and meaningful connection come together. It’s a
-          space to <span className="text-amber-800">slow down</span>, reconnect
+          space to <span className="text-amber-600">slow down</span>, reconnect
           with yourself, and experience the warmth of authentic local living.
         </motion.p>
 
