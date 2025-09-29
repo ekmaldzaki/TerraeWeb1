@@ -17,7 +17,7 @@ const profiles = [
   {
     name: "Fanzha Zhimran",
     age: 21,
-    role: "Founder of Komunitas Eko Wisata Lumajang",
+    role: "Founder of Komunitas Ekowisata Lumajang",
     instagram: "https://www.instagram.com/fanzhazhimran",
     image: "/images/owner_komunitas.jpg",
     description:
@@ -49,6 +49,15 @@ const profiles = [
     image: "/images/manager_trip.jpg",
     description:
       "A joyful adventurer with a passion for traveling, exploring new places, and meeting people along the way. Aprillia bright energy and love for adventure turn every trip into a lively experience. More than just exploring, she brings laughter and warmth to the team, making each journey feel meaningful and unforgettable.",
+  },
+  {
+    name: "Muhammad Akyas",
+    age: 20,
+    role: "Manager of Terrae Wild",
+    instagram: "https://www.instagram.com/akyasalf",
+    image: "/images/manager_wild.jpg",
+    description:
+      "An avid trail runner and nature enthusiast who discovered his true calling in the wilderness. Akyas strives to craft experiences where every step on the trail resonates with freedom, every breath carries the essence of the forest, and every journey becomes a bond between people and nature’s raw beauty.",
   },
 ];
 
