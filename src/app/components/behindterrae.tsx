@@ -42,13 +42,13 @@ const profiles = [
       "A passionate traveler with a vision to create a campground that feels natural, vibrant, and truly enjoyable. Risdian believes in designing outdoor spaces where people can connect with nature, relax, and experience the essence of the wild in comfort.",
   },
   {
-    name: "Dafi Yofida",
-    age: "35+",
-    role: "Community Public Relations",
-    instagram: "https://www.instagram.com/dafi_yofida",
-    image: "/images/pr_community.jpg",
+    name: "Aprillia DM.",
+    age: 24,
+    role: "Manager of Terrae Trip",
+    instagram: "https://www.instagram.com/aprilliadm30",
+    image: "/images/manager_trip.jpg",
     description:
-      "More than just a man, he is the voice that carries every story, the presence that never fades. Known as the elder brother to all, Dafi stands as the bridge between dreams and reality, embodying wisdom, humility, and relentless dedication. Through his words and presence, every gathering finds its soul, and every journey finds its strength.",
+      "A joyful adventurer with a passion for traveling, exploring new places, and meeting people along the way. Aprillia bright energy and love for adventure turn every trip into a lively experience. More than just exploring, she brings laughter and warmth to the team, making each journey feel meaningful and unforgettable.",
   },
 ];
 

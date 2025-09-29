@@ -17,7 +17,7 @@ export default function TerraeLocation() {
           <h2 className="text-3xl md:text-4xl font-bold">Where is Terrae?</h2>
           <p className="text-gray-300 text-justify">
             Terrae is located in{" "}
-            <strong>Kandangan, Senduro, Lumajang — East Java, Indonesia</strong>
+            <strong>Kandangan, Senduro, Lumajang, East Java, Indonesia</strong>
             , nestled on the edge of the majestic Bromo-Tengger-Semeru National
             Park.
             <br />
