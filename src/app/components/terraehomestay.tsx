@@ -26,8 +26,8 @@ const rooms = [
       "/images/room1_bath_2.jpg",
     ],
     price: {
-      noBreakfast: "IDR 200k",
-      withBreakfast: "IDR 300k",
+      noBreakfast: "IDR 400k",
+      withBreakfast: "IDR 450k",
     },
   },
   {
@@ -51,8 +51,8 @@ const rooms = [
       "/images/room2_bath_2.jpg",
     ],
     price: {
-      noBreakfast: "IDR 200k",
-      withBreakfast: "IDR 300k",
+      noBreakfast: "IDR 400k",
+      withBreakfast: "IDR 450k",
     },
   },
 ];

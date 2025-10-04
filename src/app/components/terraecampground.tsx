@@ -177,32 +177,32 @@ export default function TerraeCampground() {
             {
               name: "Mat",
               price: "5K / night",
-              img: "/images/campground2.jpg",
+              img: "/images/matras.jpg",
             },
             {
               name: "Gas",
               price: "5K / night",
-              img: "/images/campground2.jpg",
+              img: "/images/gas.jpg",
             },
             {
               name: "Hydropack",
               price: "20K / night",
-              img: "/images/campground2.jpg",
+              img: "/images/hydropack.jpg",
             },
             {
               name: "Folding Chair",
               price: "10K / night",
-              img: "/images/campground2.jpg",
+              img: "/images/kursi_lipat.jpeg",
             },
             {
               name: "Folding Table",
               price: "10K / night",
-              img: "/images/campground2.jpg",
+              img: "/images/meja2_lipat.jpeg",
             },
             {
               name: "Headlamp",
               price: "5K / night",
-              img: "/images/campground2.jpg",
+              img: "/images/headlamp.png",
             },
           ].map((item, i) => (
             <motion.div
