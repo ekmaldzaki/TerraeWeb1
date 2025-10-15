@@ -6,7 +6,6 @@ import BehindTerrae from "@/components/behindterrae";
 import TerraeLocation from "@/components/terraelocation";
 import ProductList from "@/components/productlist";
 import TerraeBooking from "@/components/terraebooking";
-import FlexiblePricing from "@/components/flexiblepricing";
 import ItineraryTerrae from "@/components/itineraryterrae";
 import ReviewTerrae from "@/components/reviewterrae";
 import FAQ from "@/components/faq";
@@ -24,7 +23,6 @@ export default function HomePage() {
       <TerraeLocation />
       <ProductList />
       <TerraeBooking />
-      <FlexiblePricing />
       <ItineraryTerrae />
       <ReviewTerrae />
       <FAQ />

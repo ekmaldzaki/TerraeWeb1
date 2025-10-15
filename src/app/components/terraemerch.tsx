@@ -33,36 +33,39 @@ const merchItems = [
 
 export default function TerraeMerch() {
   return (
-    <section className="bg-black text-white pt-36 py-24 px-4">
-      <div className="max-w-5xl mx-auto space-y-16 text-center">
+    <section className="relative bg-black text-white pt-40 pb-32 px-6 overflow-hidden">
+      {/* background glass shimmer */}
+      <div className="absolute inset-0 bg-gradient-to-b from-amber-900/10 via-black/70 to-black/90 backdrop-blur-2xl" />
+
+      <div className="relative max-w-6xl mx-auto space-y-20 text-center">
         {/* Title & Description */}
         <motion.div
           initial={{ opacity: 0, y: 20 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.8 }}
           viewport={{ once: true }}
-          className="space-y-4"
+          className="space-y-6"
         >
-          <h2 className="text-3xl md:text-4xl font-bold text-amber-600">
+          <h2 className="text-4xl md:text-5xl font-bold bg-gradient-to-r from-amber-400 via-amber-500 to-amber-600 bg-clip-text text-transparent">
             Terrae Merch & Local Goods
           </h2>
-          <p className="text-gray-300 max-w-2xl mx-auto text-justify">
+          <p className="text-gray-300 max-w-2xl mx-auto text-justify leading-relaxed">
             Bring the warmth of Terrae with you wherever you go. From
             minimalist-designed T-shirts and cozy jackets to locally harvested
             coffee and calming incense, each item carries the essence of the
             highlands. Thoughtfully crafted and community-rooted, Terrae
-            products are more than just souvenirs — they’re a piece of the
+            products are more than just souvenirs, they’re a piece of the
             experience.
           </p>
         </motion.div>
 
-        {/* Gallery */}
+        {/* Merch Cards */}
         <motion.div
           initial={{ opacity: 0, y: 30 }}
           whileInView={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.6 }}
           viewport={{ once: true }}
-          className="grid grid-cols-1 sm:grid-cols-2 gap-6"
+          className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-2 gap-10"
         >
           {merchItems.map((item, index) => (
             <MerchCard key={index} {...item} />
@@ -84,7 +87,6 @@ function MerchCard({
 }) {
   const [current, setCurrent] = useState(0);
 
-  // Preload all images for this card
   useEffect(() => {
     images.forEach((src) => {
       const img = new window.Image();
@@ -92,63 +94,61 @@ function MerchCard({
     });
   }, [images]);
 
-  const nextImage = () => {
-    setCurrent((prev) => (prev + 1) % images.length);
-  };
-
-  const prevImage = () => {
-    setCurrent((prev) => (prev - 1 + images.length) % images.length);
-  };
+  const nextImage = () => setCurrent((p) => (p + 1) % images.length);
+  const prevImage = () =>
+    setCurrent((p) => (p - 1 + images.length) % images.length);
 
   return (
-    <div className="space-y-3 text-center">
-      <div className="w-full aspect-[5/4] relative rounded overflow-hidden group">
-        <Image
-          src={images[current]}
-          alt={title}
-          layout="fill"
-          objectFit="cover"
-          className="rounded transition-all duration-500"
-        />
-        {images.length > 1 && (
-          <>
-            <button
-              onClick={prevImage}
-              aria-label="Previous image"
-              className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-white/20 backdrop-blur shadow-lg border border-white/30 text-white text-xl transition hover:bg-amber-600 hover:text-black hover:scale-110 focus:outline-none focus:ring-2 focus:ring-amber-400"
-            >
-              <span className="sr-only">Previous</span>
-              <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
-                <path
-                  d="M13 16l-5-6 5-6"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-            <button
-              onClick={nextImage}
-              aria-label="Next image"
-              className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-white/20 backdrop-blur shadow-lg border border-white/30 text-white text-xl transition hover:bg-amber-600 hover:text-black hover:scale-110 focus:outline-none focus:ring-2 focus:ring-amber-400"
-            >
-              <span className="sr-only">Next</span>
-              <svg width="20" height="20" fill="none" viewBox="0 0 20 20">
-                <path
-                  d="M7 4l5 6-5 6"
-                  stroke="currentColor"
-                  strokeWidth="2"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                />
-              </svg>
-            </button>
-          </>
-        )}
+    <div className="relative group p-[1px] rounded-2xl bg-gradient-to-br from-amber-600/40 via-amber-500/20 to-transparent hover:from-amber-500/60 hover:to-amber-900/20 transition-all duration-500">
+      <div className="rounded-2xl bg-white/10 backdrop-blur-xl p-4 flex flex-col items-center space-y-4 h-full">
+        <div className="relative w-full aspect-[5/4] rounded-xl overflow-hidden shadow-xl">
+          <Image
+            src={images[current]}
+            alt={title}
+            fill
+            className="object-cover transition-all duration-700 scale-105 group-hover:scale-110"
+          />
+
+          {/* Glass controls */}
+          {images.length > 1 && (
+            <>
+              <button
+                onClick={prevImage}
+                className="absolute left-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-black/30 backdrop-blur border border-white/20 text-white hover:bg-amber-500 hover:text-black transition"
+              >
+                <svg width="18" height="18" fill="none" viewBox="0 0 24 24">
+                  <path
+                    d="M15 18l-6-6 6-6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+              <button
+                onClick={nextImage}
+                className="absolute right-3 top-1/2 -translate-y-1/2 w-9 h-9 flex items-center justify-center rounded-full bg-black/30 backdrop-blur border border-white/20 text-white hover:bg-amber-500 hover:text-black transition"
+              >
+                <svg width="18" height="18" fill="none" viewBox="0 0 24 24">
+                  <path
+                    d="M9 6l6 6-6 6"
+                    stroke="currentColor"
+                    strokeWidth="2"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                  />
+                </svg>
+              </button>
+            </>
+          )}
+        </div>
+
+        <div className="space-y-1">
+          <p className="text-lg font-semibold tracking-wide">{title}</p>
+          <p className="text-amber-400 font-medium">{price}</p>
+        </div>
       </div>
-      <p className="text-lg font-semibold">{title}</p>
-      <p className="text-amber-600 font-medium">{price}</p>
     </div>
   );
 }

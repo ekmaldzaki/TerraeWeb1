@@ -66,12 +66,19 @@ export default function BehindTerrae() {
   const profile = profiles[index];
 
   return (
-    <section className="bg-black text-white py-16 px-2 sm:py-24 sm:px-4">
-      <div className="max-w-6xl mx-auto space-y-12 sm:space-y-16">
+    <section className="relative bg-black text-white py-16 px-4 sm:py-24 overflow-hidden">
+      {/* Amber gradient overlay */}
+      <div className="absolute inset-0 bg-gradient-to-b from-black via-black/80 to-black/90 z-0" />
+
+      {/* Decorative glow orbs */}
+      <div className="absolute top-32 left-1/4 w-96 h-96 bg-amber-500/10 rounded-full blur-3xl z-0" />
+      <div className="absolute bottom-20 right-1/4 w-80 h-80 bg-amber-400/10 rounded-full blur-3xl z-0" />
+
+      <div className="relative z-10 max-w-6xl mx-auto space-y-12 sm:space-y-16">
         {/* Title */}
         <div className="text-center space-y-3 sm:space-y-4">
           <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-            The People Behind Terrae
+            The People Behind <span className="text-amber-600">Terrae</span>
           </h2>
           <p className="text-gray-300 max-w-2xl mx-auto text-justify text-sm sm:text-base">
             Behind Terrae lies a group of passionate souls, each bringing their
@@ -81,40 +88,106 @@ export default function BehindTerrae() {
           </p>
         </div>
 
-        {/* Content */}
-        <div className="flex flex-col gap-10 sm:gap-12 md:grid md:grid-cols-2 md:items-center">
-          {/* Left: Text */}
-          <motion.div
-            key={profile.name}
-            initial={{ opacity: 0, x: -30 }}
-            animate={{ opacity: 1, x: 0 }}
-            exit={{ opacity: 0, x: -30 }}
-            transition={{ duration: 0.6 }}
-            className="space-y-3 sm:space-y-4"
-          >
-            <h3 className="text-xl sm:text-2xl font-semibold">
-              {profile.name}
-            </h3>
-            <p className="text-xs sm:text-sm text-gray-400">
-              Age {profile.age} • {profile.role}
-            </p>
-            <a
-              href={profile.instagram}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="text-amber-600 hover:underline break-all"
-            >
-              {profile.instagram.replace("https://www.instagram.com/", "@")}
-            </a>
-            <p className="text-gray-300 leading-relaxed text-justify text-sm sm:text-base">
-              {profile.description}
-            </p>
-          </motion.div>
+        {/* Main content layout */}
+        <div className="flex flex-col md:grid md:grid-cols-2 gap-10 sm:gap-12 md:items-start">
+          {/* ===== LEFT SECTION ===== */}
+          <div className="flex flex-col items-center md:items-start space-y-6 w-full">
+            {/* MOBILE layout: text left + photo right */}
+            <div className="sm:hidden flex items-stretch justify-between w-full gap-4">
+              {/* Left Card */}
+              <div
+                className="flex-1 backdrop-blur-lg bg-white/5 border border-white/20 rounded-3xl shadow-[0_8px_32px_rgba(255,255,255,0.05)]
+                  p-4 flex flex-col justify-between transition-all duration-300 hover:bg-white/10"
+              >
+                <div className="space-y-2">
+                  <h3 className="text-lg font-semibold">{profile.name}</h3>
+                  <p className="text-xs text-gray-400">
+                    Age {profile.age} • {profile.role}
+                  </p>
+                  <a
+                    href={profile.instagram}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-amber-500 hover:text-amber-400 hover:underline break-all transition-colors"
+                  >
+                    {profile.instagram.replace(
+                      "https://www.instagram.com/",
+                      "@"
+                    )}
+                  </a>
+                  <p className="text-gray-200 text-xs leading-relaxed ">
+                    {profile.description}
+                  </p>
+                </div>
+              </div>
 
-          {/* Right: Image + Gallery */}
-          <div className="flex flex-col items-center gap-4 sm:gap-6">
-            {/* Main Image */}
-            <div className="relative w-full max-w-[300px] sm:max-w-[400px] aspect-[4/5] overflow-hidden rounded-lg">
+              {/* Right Photo — outside card, proportional */}
+              <div className="relative flex-shrink-0 w-[40%] rounded-3xl overflow-hidden shadow-lg">
+                <Image
+                  src={profile.image}
+                  alt={profile.name}
+                  fill
+                  className="object-cover rounded-3xl"
+                />
+              </div>
+            </div>
+
+            {/* DESKTOP vertical card */}
+            <motion.div
+              key={profile.name}
+              initial={{ opacity: 0, x: -30 }}
+              animate={{ opacity: 1, x: 0 }}
+              exit={{ opacity: 0, x: -30 }}
+              transition={{ duration: 0.6 }}
+              className="hidden sm:block backdrop-blur-lg bg-white/5 border border-white/20 rounded-3xl shadow-[0_8px_32px_rgba(255,255,255,0.05)]
+                 p-6 sm:p-8 space-y-4 sm:space-y-5 transition-all duration-300 hover:bg-white/10 w-full"
+            >
+              <h3 className="text-xl sm:text-2xl font-semibold">
+                {profile.name}
+              </h3>
+              <p className="text-xs sm:text-sm text-gray-400">
+                Age {profile.age} • {profile.role}
+              </p>
+              <a
+                href={profile.instagram}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-amber-500 hover:text-amber-400 hover:underline break-all transition-colors"
+              >
+                {profile.instagram.replace("https://www.instagram.com/", "@")}
+              </a>
+              <p className="text-gray-200 leading-relaxed text-justify text-sm sm:text-base">
+                {profile.description}
+              </p>
+            </motion.div>
+
+            {/* Gallery buttons below (desktop) */}
+            <div className="hidden sm:flex flex-wrap justify-center gap-3 pt-2">
+              {profiles.map((p, i) => (
+                <button
+                  key={i}
+                  onClick={() => setIndex(i)}
+                  className={`relative w-16 h-16 rounded-xl overflow-hidden border-2 transition-all duration-300 
+                    ${
+                      i === index
+                        ? "border-amber-500 scale-110"
+                        : "border-gray-700 hover:border-amber-600 hover:scale-105"
+                    }`}
+                >
+                  <Image
+                    src={p.image}
+                    alt={p.name}
+                    fill
+                    className="object-cover"
+                  />
+                </button>
+              ))}
+            </div>
+          </div>
+
+          {/* ===== RIGHT SECTION (Desktop) ===== */}
+          <div className="hidden md:flex justify-center">
+            <div className="relative w-full max-w-[420px] aspect-[4/5] rounded-3xl overflow-hidden shadow-lg">
               <AnimatePresence mode="wait">
                 <motion.div
                   key={profile.image}
@@ -122,39 +195,36 @@ export default function BehindTerrae() {
                   animate={{ opacity: 1, x: 0 }}
                   exit={{ opacity: 0, x: -40 }}
                   transition={{ duration: 0.6 }}
-                  className="absolute inset-0"
+                  className="absolute inset-0 bg-black"
                 >
                   <Image
                     src={profile.image}
                     alt={profile.name}
-                    layout="fill"
-                    objectFit="cover"
-                    className="rounded-lg"
+                    fill
+                    className="object-cover rounded-3xl"
                   />
                 </motion.div>
               </AnimatePresence>
             </div>
-
-            {/* Thumbnail Gallery */}
-            <div className="flex gap-2 sm:gap-4 overflow-x-auto scrollbar-thin scrollbar-thumb-gray-700 scrollbar-track-transparent w-full justify-center">
-              {profiles.map((p, i) => (
-                <button
-                  key={i}
-                  onClick={() => setIndex(i)}
-                  className={`relative min-w-[56px] min-h-[56px] w-14 h-14 sm:w-20 sm:h-20 rounded overflow-hidden border-2 ${
-                    i === index ? "border-amber-600" : "border-gray-700"
-                  }`}
-                >
-                  <Image
-                    src={p.image}
-                    alt={p.name}
-                    layout="fill"
-                    objectFit="cover"
-                  />
-                </button>
-              ))}
-            </div>
           </div>
+        </div>
+
+        {/* ===== MOBILE GALLERY single row ===== */}
+        <div className="sm:hidden flex justify-center gap-2 mt-4">
+          {profiles.map((p, i) => (
+            <button
+              key={i}
+              onClick={() => setIndex(i)}
+              className={`relative w-14 h-14 rounded-lg overflow-hidden border-2 transition-all duration-300 
+                ${
+                  i === index
+                    ? "border-amber-500 scale-105"
+                    : "border-gray-700 hover:border-amber-600 hover:scale-105"
+                }`}
+            >
+              <Image src={p.image} alt={p.name} fill className="object-cover" />
+            </button>
+          ))}
         </div>
       </div>
     </section>

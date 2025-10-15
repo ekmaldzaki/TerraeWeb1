@@ -23,10 +23,10 @@ import { VisuallyHidden } from "@radix-ui/react-visually-hidden";
 export default function Navbar() {
   const navLinks = [
     { name: "About", href: "/", icon: Info },
-    { name: "Stay", href: "/stay", icon: Tent },
+    { name: "Stay", href: "/stay", icon: Home },
     { name: "Activities", href: "/activities", icon: Mountain },
     { name: "Culture", href: "/culture", icon: LandPlot },
-    { name: "Campground", href: "/campground", icon: Home },
+    { name: "Campground", href: "/campground", icon: Tent },
     { name: "Goodies", href: "/goodies", icon: ShoppingBag },
     {
       name: "Contact",
